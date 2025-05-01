@@ -1,0 +1,59 @@
+1. LD (Load Direct)
+Purpose: Load a value from memory using PC-relative addressing.
+Syntax: LD DR, PCoffset9
+Explanation:
+DR (Destination Register): The register where the loaded value will be stored.
+PCoffset9: A 9-bit signed offset added to the current Program Counter (PC) to calculate the memory address.
+The address from which the data is loaded is computed by adding the PCoffset9 to the PC (Program Counter), pointing to a direct memory location.
+Operation:
+Compute the effective address: Effective Address = PC + PCoffset9.
+Fetch the data from the calculated memory address.
+Store the fetched value in the destination register DR.
+Example:
+LD R0, #5   ; Load the value from memory at PC + 5 into R0
+
+2. LDR (Load Register)
+Purpose: Load a value from memory using Base + Offset addressing (relative to a base register).
+Syntax: LDR DR, BaseR, offset6
+Explanation:
+DR (Destination Register): The register where the loaded value will be stored.
+BaseR (Base Register): A register that holds a base address in memory.
+offset6: A 6-bit signed offset added to the contents of BaseR to compute the effective address.
+The address from which the data is loaded is calculated by adding the 6-bit signed offset6 to the value in the BaseR register.
+Operation:
+Compute the effective address: Effective Address = BaseR + offset6.
+Fetch the data from the calculated memory address.
+Store the fetched value in the destination register DR.
+Example:
+LDR R1, R2, #4  ; Load the value from memory at address (R2 + 4) into R1
+
+3. LDI (Load Indirect)
+Purpose: Load a value from memory using Indirect Addressing.
+Syntax: LDI DR, PCoffset9
+Explanation:
+DR (Destination Register): The register where the loaded value will be stored.
+PCoffset9: A 9-bit signed offset added to the PC to compute the memory address.
+The address used to fetch the data is calculated by adding the PCoffset9 to the PC, but the actual value loaded comes from the memory location stored at that address.
+This is a two-step memory access:
+The value at PC + PCoffset9 is a pointer (an address).
+The data at the address pointed to by that pointer is loaded into the destination register DR.
+Operation:
+Compute the effective address: Pointer Address = PC + PCoffset9.
+Use the value at Pointer Address as another address, and fetch the data from that address.
+Store the fetched value in the destination register DR.
+Example:
+LDI R3, #-3   ; Load the value from memory at the address stored in (PC - 3) into R3
+
+Key Differences:
+LD (Load Direct): Loads a value from a memory location directly calculated from PC + offset.
+LDR (Load Register): Loads a value from a memory location based on a base register and an offset.
+LDI (Load Indirect): Loads a value from a memory location indirectly by first loading an address from memory (pointer-based).
+Visual Breakdown:
+LD:
+Memory[PC + offset] → DR
+
+LDR:
+Memory[BaseR + offset] → DR
+
+LDI:
+Memory[Memory[PC + offset]] → DR

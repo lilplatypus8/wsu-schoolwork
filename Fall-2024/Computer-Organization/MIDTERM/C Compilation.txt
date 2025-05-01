@@ -1,0 +1,61 @@
+1. Writing the C Source Code (Source File)
+The C source code is written in a text editor and saved with a .c extension.
+This file is just plain text; the machine cannot directly understand or execute it. It needs to go through multiple stages to become executable.
+
+2. Preprocessing (C Preprocessor)
+Command: gcc -E program.c -o program.i (using GCC as the compiler example)
+The preprocessor handles preprocessor directives like #include, #define, and conditional compilation (e.g., #ifdef).
+#include: Expands header files by replacing the #include <file> line with the actual content of the included file.
+#define: Handles macros and replaces them with their defined values.
+The output is a .i file (preprocessed source file), which is a C file with all preprocessing directives expanded. This is still in C syntax but without macros or includes.
+
+3. Compilation (Compiler)
+Command: gcc -S program.i -o program.s
+The compiler takes the preprocessed .i file and translates it into assembly code (a lower-level representation of the program).
+Assembly code is specific to the target architecture (e.g., x86, ARM).
+The output is a .s file (assembly file).
+
+4. Assembly (Assembler)
+Command: gcc -c program.s -o program.o
+The assembler converts the assembly code into machine code or object code. This is the binary representation of the program, but it is not yet a complete executable. It consists of a series of instructions specific to the CPU architecture.
+The output is an object file with a .o or .obj extension.
+The object file contains:
+Machine instructions.
+Symbol table: holds information about functions and variables (to be resolved during linking).
+Unresolved addresses for functions or variables that the program calls but are defined elsewhere.
+
+5. Linking (Linker)
+Command: gcc program.o -o program
+The linker combines one or more object files and libraries into a final executable.
+It resolves symbols (i.e., links function calls to their actual definitions) and binds them to the addresses where the functions and variables will reside in memory.
+The linker also includes code from standard libraries (like the C standard library for printf).
+If external functions (e.g., printf) are called, the linker includes references to the system’s shared libraries or static libraries.
+The result is a complete executable file (on Linux, typically without an extension; on Windows, it would be .exe).
+
+6. Loading and Execution (Loader)
+Once the executable file is created, you can run it by calling its name on the command line (e.g., ./program).
+The loader, which is part of the operating system, loads the program into memory.
+It sets up the runtime environment (stack, heap, data, and code segments).
+The program’s execution begins at the entry point (usually main()).
+The operating system allocates memory and CPU resources to the program.
+
+7. Summary of Stages
+Preprocessing (.i): Handles directives like #include and #define.
+Compilation (.s): Converts C code into assembly.
+Assembly (.o): Translates assembly into machine code (object file).
+Linking (program): Resolves external references and produces the final executable.
+Execution: The OS loads and runs the executable in memory.
+Additional Considerations
+Static Linking vs Dynamic Linking:
+
+Static Linking: All necessary code (including libraries) is included in the final executable. This leads to larger executables but independent of external libraries at runtime.
+Dynamic Linking: The executable contains references to shared libraries that are loaded at runtime, reducing file size but requiring that the correct library versions are available on the system.
+Optimization:
+
+The compiler can perform optimizations during the compilation phase (e.g., using -O1, -O2, -O3 flags in GCC). These optimizations can improve execution speed, reduce memory usage, or even decrease the executable's size.
+Example Commands in GCC Workflow:
+Preprocessing: gcc -E hello.c -o hello.i
+Compilation: gcc -S hello.i -o hello.s
+Assembly: gcc -c hello.s -o hello.o
+Linking: gcc hello.o -o hello
+Each step in the compilation process brings the C code closer to a binary format that the machine can understand and execute.

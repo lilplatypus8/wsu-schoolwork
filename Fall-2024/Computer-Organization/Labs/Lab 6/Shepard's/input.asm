@@ -1,0 +1,115 @@
+.ORIG x4000
+ST R7, RSEVEN
+ST R1, RONE
+ST R2, RTWO
+ST R3, RTHREE
+ST R4, RFOUR
+
+
+GETNUM
+	; First digit in num
+	GETC
+	OUT
+
+    ;;;;; CHECK IF FIRST NUM IS A 0
+
+	LD R1, na48
+	;Convert from ascii
+	ADD R0, R0, R1
+
+	ADD R1, R0, #0
+	ST R1, NUM_TENS_VALUE
+
+	AND R2, R2, #0
+	ADD R2, R2, #10
+
+	JSR MULTIPLICATION
+
+
+	LD R1, na48
+
+	; Second digit in num
+	GETC
+	OUT
+
+    JSR CHECK_NEW_LINE
+
+	ADD R0, R3, R0
+
+
+
+
+	LD R7, RSEVEN
+	LD R1, RONE
+	LD R2, RTWO
+	LD R3, RTHREE
+	LD R4, RFOUR
+RET
+
+HALT
+
+CHECK_NEW_LINE
+        ADD R0, R0, #-10
+        BRz IS_NEW_LINE
+        ADD R0, R0, #10
+    	;Convert from ascii
+    	ADD R0, R0, R1
+
+	    RET
+	    IS_NEW_LINE
+	        AND R0, R0, #0
+	        LD R3, NUM_TENS_VALUE
+	        RET
+
+
+
+MULTIPLICATION
+	; Multiply R1 and R2 and put it in R3
+
+
+    ;;;; ZERO CHECKS
+    ADD R2, R2, #0
+    BRz RETURN_ZERO
+
+    ADD R1, R1, #0
+    BRz RETURN_ZERO
+
+	; Zero out R3
+	AND R3, R3, #0
+
+	LOOP
+
+		ADD R3, R1, R3
+
+		; If iterator is 0, exit
+		ADD R2, R2, #-1
+	BRp LOOP
+
+
+	ST R3, RESULT
+RET
+    RETURN_ZERO
+    ADD R3, R3, #0
+    ST R3, RESULT
+RET
+
+
+RESULT .BLKW #1
+RZERO .BLKW #1
+RONE .BLKW #1
+RTWO .BLKW #1
+RTHREE .BLKW #1
+RFOUR .BLKW #1
+RSEVEN .BLKW #1
+TENS .FILL #-10
+ONES .FILL #-1
+TENS_DIGIT .FILL x4002
+ONES_DIGIT .FILL x4003
+na48 .FILL #-48
+a48 .FILL #48
+RESULT_TEMP .BLKW #1
+NUM_TENS_VALUE .BLKW #1
+NEWLINE .FILL x000A
+
+.END
+

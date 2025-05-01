@@ -1,0 +1,129 @@
+.ORIG x5000
+	ST R7, RSEVEN
+    ST R0, RZERO
+	ST R2, RTWO
+	ST R3, RTHREE
+	ST R4, RFOUR
+
+
+	LD R4, a48
+
+	AND R2, R2, #0
+
+
+	;ADD R0, R3, #0
+	;;;; CHECK IF VALUE IS NEGATIVE, IF SO, TWOs COMPLIMENT IT TO BRING IT BACK AND THEN OUT PUT A NEGATIVE SIGN BEFORE IT
+
+	ST R0, RESULT_TEMP
+
+
+
+	AFTER_CONVERSION
+
+
+    ;;;; CHECK FOR HOW MANY TENS
+    AND R1, R1, #0
+    LD R3, TENS
+    TENS_LOOP
+        ADD R1, R1, #1
+        ADD R0, R0, R3
+
+        ADD R0, R0, #0
+        BRz TENS_LOOP_END
+        BRp TENS_LOOP
+
+    ADD R1, R1, #-1
+    TENS_LOOP_END
+
+    ;;;; CHECK FOR R1 = 10
+    ADD R1, R1, #-10
+    BRz R1_TENS_TO_1
+    ADD R1, R1, #10
+    ADD R1, R1, #-10
+    BRn R1_TENS_TO_R1
+
+    R1_TENS_TO_1
+        ADD R1, R1, #1
+        ADD R1, R1, #0
+        BRp R1_TENS_AFTER
+    R1_TENS_TO_R1
+        ADD R1, R1, #10
+
+
+    R1_TENS_AFTER
+    ;ST R1, TENS_DIGIT
+    ST R0, RESULT_TEMP
+    ADD R0, R1, #0
+
+
+    ADD R0, R0, #0
+    BRz DONT_PRINT_OUT
+
+    ADD R0, R4, R0
+    ;BRp PRINT_OUT
+    ;PRINT_OUT
+    OUT
+    DONT_PRINT_OUT
+    LD R0, RESULT_TEMP
+
+    ADD R0, R0, #0
+    BRn MAKE_POSITIVE_TENS
+    BRzp TENS_CONTINUE
+    MAKE_POSITIVE_TENS
+    NOT R3, R3
+    ADD R3, R3, #1
+
+    ADD R0, R3, R0
+    TENS_CONTINUE
+
+    ;;;; CHECK FOR HOW MANY ONES
+    AND R1, R1, #0
+    LD R3, ONES
+    ONES_LOOP
+        ADD R1, R1, #1
+        ADD R0, R0, R3
+
+        ADD R0, R0, #0
+        BRz ONES_LOOP_END
+
+        BRp ONES_LOOP
+    ADD R1, R1, #-1
+    ONES_LOOP_END
+    ST R0, RESULT_TEMP
+    ADD R0, R1, #0
+    ADD R0, R4, R0
+    OUT
+    LD R0, RESULT_TEMP
+
+    NOT R3, R3
+    ADD R3, R3, #1
+
+    ADD R0, R3, R0
+
+
+
+	LD R7, RSEVEN
+    LD R0, RZERO
+	LD R2, RTWO
+	LD R3, RTHREE
+	LD R4, RFOUR
+RET
+
+HALT
+
+RZERO .BLKW #1
+RTWO .BLKW #1
+RTHREE .BLKW #1
+RFOUR .BLKW #1
+RSEVEN .BLKW #1
+TENS .FILL #-10
+ONES .FILL #-1
+TENS_DIGIT .FILL x4002
+ONES_DIGIT .FILL x4003
+na48 .FILL #-48
+a48 .FILL #48
+RESULT_TEMP .BLKW #1
+
+
+.END
+

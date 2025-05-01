@@ -1,0 +1,110 @@
+02 - Bits, Data Types, and Operations
+Data Representation:
+
+Binary (base 2), Decimal (base 10), and Hexadecimal (base 16):
+Binary: Uses 0 and 1 (e.g., 1010₂ = 10₁₀).
+Decimal: Standard numeric system.
+Hex: Uses 0-9 and A-F (e.g., A3₁₆ = 163₁₀).
+Conversions:
+Binary to Decimal: Multiply each bit by 2 raised to its position.
+Decimal to Binary: Repeated division by 2.
+Hex to Binary: Convert each hex digit to its 4-bit binary equivalent.
+Adding Binary Numbers: Use basic addition rules, carrying over when sum > 1 (like decimal addition).
+ASCII and Strings:
+Each character has a unique binary value based on the ASCII table (e.g., ‘A’ = 65 = 01000001 in binary).
+Strings are sequences of characters stored as ASCII values.
+Two’s Complement:
+
+Used for representing negative numbers in binary.
+Steps:
+Invert the binary digits.
+Add 1 to the result.
+Enables easy binary subtraction and efficient negative number representation.
+Floating-Point Numbers (Floats):
+
+Represent real numbers in binary.
+Consists of a sign bit, exponent, and mantissa.
+Use IEEE 754 standard for floating-point arithmetic.
+03 - LC3 Instruction Set Architecture
+Instructions:
+
+Operate Instructions: Perform arithmetic or logic operations (ADD, AND, NOT).
+Data Movement Instructions: Load/store data (LD, ST, LDI).
+Control Instructions: Branching (BR, JMP, JSR).
+Opcodes:
+
+The binary representation of operations (e.g., 0001 for ADD).
+Operands:
+
+Values the instructions operate on (registers or memory addresses).
+PCoffset:
+
+Offset added to the Program Counter (PC) for branching.
+Addressing Modes:
+
+Direct: Uses memory address directly.
+Indirect: Uses a pointer to another memory address.
+Immediate: Uses a constant value within the instruction.
+04 - LC3 Assembly Language
+Pseudo-Ops:
+
+Instructions for the assembler, not the machine (e.g., .ORIG, .END).
+Labels:
+
+Named memory addresses used for branching or storing data.
+Opcodes:
+
+Instructions in assembly language (ADD, AND, BR).
+C Code to Executable:
+
+Source code → Assembly → Machine code → Executable using compilers.
+05 - Subroutines and TRAPs
+TRAP Calls:
+
+System-level calls used for I/O operations or system services.
+TRAP Vector Table:
+
+Holds the addresses of TRAP service routines.
+TRAP Instructions / RET Instruction:
+
+TRAP (e.g., TRAP x25 for input).
+RET: Returns from a subroutine (stored in R7).
+Subroutines:
+
+Modular blocks of code that perform specific tasks.
+Called with JSR (Jump to Subroutine) and return using RET.
+06 - The C Programming Language
+High-Level Languages:
+
+Abstract away machine-specific details for readability and portability.
+Compiling C Code:
+
+Translates C code to machine code via a compiler (Preprocessor → Compiler → Assembler → Linker).
+Pointers:
+
+Variables that store memory addresses (e.g., int *p).
+Arrays:
+
+Contiguous memory blocks storing multiple elements of the same type.
+Function Calls:
+
+Functions encapsulate reusable code blocks.
+Scope:
+
+Defines the visibility of variables (local vs. global).
+07 - The Runtime Stack
+Stacks:
+
+Last-In-First-Out (LIFO) structure used for function calls, storing local variables, and return addresses.
+Stack Pointer (SP):
+
+Points to the top of the stack.
+Frame Pointer (FP):
+
+Marks the start of a function's stack frame, used to access local variables.
+Global Variable Pointer (GP):
+
+Points to globally declared variables in memory.
+Runtime Stack Construction:
+
+As functions are called, stack frames are pushed onto the stack, holding return addresses, parameters, and local variables. When functions return, frames are popped.

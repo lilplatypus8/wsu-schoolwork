@@ -1,0 +1,54 @@
+.ORIG x3000
+START
+AND R0, R0, #0
+AND R1, R1, #0
+AND R2, R2, #0
+AND R3, R3, #0
+AND R4, R4, #0
+
+LD R3, ASCII_NEGATIVE
+
+LEA R0, PROMPT
+PUTS
+
+GETC
+OUT
+
+ADD R4, R0, #0
+
+LD R0, NEWLINE
+OUT
+
+ADD R4, R4, R3
+ADD R1, R4, #0
+
+LD R2, INTN5
+
+ADD R3, R2, R1
+BRz EQUAL
+BRp GREATER
+BRn LESS
+
+EQUAL
+LEA R0, EQUALPROMPT
+PUTS
+BRnzp START
+
+GREATER
+LEA R0, GREATERPROMPT
+PUTS
+BRnzp START
+
+LESS
+LEA R0, LESSPROMPT
+PUTS
+BRnzp START
+
+PROMPT .STRINGZ "Please enter a number: "
+GREATERPROMPT .STRINGZ "The number you entered was greater than 5!\n\n"
+EQUALPROMPT .STRINGZ "The number you entered was equal to 5!\n\n"
+LESSPROMPT .STRINGZ "The number you entered was less than 5!\n\n"
+ASCII_NEGATIVE .FILL #-48
+INTN5 .Fill #-5
+NEWLINE .FILL x000A
+.END
