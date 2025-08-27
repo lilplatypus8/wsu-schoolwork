@@ -1,0 +1,19 @@
+QR Code Scanner
+
+*Encryption*
+    Create a key and put it on both Pi and Server ahead of time
+    Use AES-256 to encrypt the images on the Pi
+
+*Output from Pi*
+    Before encryption, compress images into zip file
+    Split the zip file into small enough chunks for QR codes
+    Output a slideshow with QR codes
+
+*Receiving Data from Pi*
+    Use camera from Server to read the QR slideshow
+    Reassemble the received data
+    Decrypt data using key on Server
+    Extract zip file to get images
+
+*Verifying Data*
+    Generate QR code that contain 
