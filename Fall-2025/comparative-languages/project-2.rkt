@@ -104,9 +104,37 @@
                 (merge left-sorted right-sorted))))) ; merges now-sorted left and right lists
 
 
+; powerset
+; takes a list as input that is a flat set of integers
+; returns the powerset of the list
+
+(define (powerset lst)
+
+  ; list to hold final powerset to return
+  (define return-set '())
+  
+  ; complete recursive function to compute powerset
+  (if (empty? lst)
+      (list '()) ; BASECASE: if lst is empty, return empty set
+      (let* ([first-val (first lst)] ; variable to hold first value of lst
+             [rest-of-list (rest lst)] ; list that holds all values except the first value of lst
+             [powerset-rest (powerset rest-of-list)]) ; powerset of rest-of-list
+        (set! return-set powerset-rest) ; adds powerset of all but first value of lst to return-set
+        
+
+        ; iterate over the rest of the list
+        (for ([i powerset-rest])
+          (set! return-set (append return-set (list (cons first-val i))))) ; for each element of powerset-rest, add the first value of lst and i to return-set as a list
+
+  return-set)))
+
+  
+  
+
 ; TEST CASES
 (set-equal? '(1 2 3 4) '(4 2 1 3))
 (nested-set-equal? '(1 2 (3 4 5)) '(2 (4 3 5) 1))
 (union '(1 2 3 4) '(2 3 4 5))
 (intersection '(1 2 3 4) '(2 3 4 5))
 (mergesort '(3 1 2 7 9))
+(powerset '(1 3 5))
