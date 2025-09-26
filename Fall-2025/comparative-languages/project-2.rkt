@@ -12,6 +12,7 @@
        (for/and ([i set2]) ; same logic as above but vice versa
          (not (not (member i set1))))))
 
+
 ; nested-set-equal?
 ; takes two lists as input that can contain nested sets
 ; returns true if the sets are equal
@@ -24,7 +25,7 @@
                            (for/or ([y lst]) 
                              (nested-set-equal? x y)))]
     
-           ; subset? checks if set 'a' is a subset of set 'b'
+           ; checks if set 'a' is a subset of set 'b'
            [subset? (lambda (a b)
                       ; iterates over set and check if each element is a member of other set
                       (for/and ([x a]) 
@@ -33,7 +34,8 @@
     ; returns #t for whole function if both sets are subsets of each other
     ; returns #f otherwise
     (and (subset? set1 set2) (subset? set2 set1))))
-   
+
+
 ; union
 ; takes two lists as input that are non-nested sets of integers
 ; returns the union of both sets
@@ -54,6 +56,7 @@
   ; return new set containing union
   new-set)
 
+
 ; intersection
 ; takes two lists as input that are non-nested sets of integers
 ; returns the intersection of both sets
@@ -70,6 +73,7 @@
   ; return new set containing intersection
   new-set)
 
+
 ; mergesort
 ; takes a list as input that is a flat set of integers
 ; returns the mergesorted result of the two lists as new list
@@ -77,10 +81,9 @@
 
   (letrec ([merge (lambda (first-list second-list) ; helper function that sorts and merges two lists together
 
-                    ; BASE CASE: if one list is empty, return the other one in the merge function
                     (cond
-                      [(empty? first-list) second-list]
-                      [(empty? second-list) first-list]
+                      [(empty? first-list) second-list] ; BASE CASE: if one list is empty, return the other one in the merge function
+                      [(empty? second-list) first-list] ; BASE CASE: if one list is empty, return the other one in the merge function
                       [else
                        ; if neither list is empty, set x and y to the first values of their respective lists
                        (let* ([x (car first-list)] 
@@ -107,7 +110,6 @@
 ; powerset
 ; takes a list as input that is a flat set of integers
 ; returns the powerset of the list
-
 (define (powerset lst)
 
   ; list to hold final powerset to return
@@ -126,10 +128,32 @@
         (for ([i powerset-rest])
           (set! return-set (append return-set (list (cons first-val i))))) ; for each element of powerset-rest, add the first value of lst and i to return-set as a list
 
-  return-set)))
+  return-set))) ; return full powerset of lst
 
-  
-  
+
+; nested-reduce
+; takes a list (possibly nested) of integers as input
+; returns the same list with no duplicate integers or sublists
+(define (nested-reduce lst)
+
+  (let ([reversed (reverse lst)]) ; reverse lst and store it as reversed to preserve proper ordering after operations
+        (reverse
+  (cond
+    [(empty? reversed) '()] ; BASE CASE: if lst is empty, return empty list
+    [else
+     (let ([x (car reversed)] ; set x to the first element of the list
+       [rest (nested-reduce (cdr reversed))]) ; recursively reduce the tail of lst and store as rest
+       (cond
+         [(list? x) ; check if x is a list
+          (let ([reduced-x (nested-reduce x)]) ; if x itself is a list, recursively reduce x and store as reduced-x
+            (if (member reduced-x rest equal?)
+                rest ; if reduced-x is a member later on in rest, skip x and return just rest
+                (cons reduced-x rest)))] ; if no duplicates of reduced-x exist, add it to the beginning of rest 
+         [(member x rest equal?) rest] ; if x is a member of rest, skip x and return just rest
+         [else (cons x rest)]))])))) ; otherwise, add the first element to the beginning of the new list and recurse again
+
+
+
 
 ; TEST CASES
 (set-equal? '(1 2 3 4) '(4 2 1 3))
@@ -138,3 +162,4 @@
 (intersection '(1 2 3 4) '(2 3 4 5))
 (mergesort '(3 1 2 7 9))
 (powerset '(1 3 5))
+(nested-reduce '(1 3 (2 5) (2 5) (2 5 (2 5) (2 5)) 3 7 1))
