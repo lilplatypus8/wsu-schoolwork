@@ -75,6 +75,6 @@
 
 
 ; TEST CASES for problems 5 and 6
-(div-by 30)
-(count-evens '(1 4 3 7 8))
-(count-evens-nested '(1 (2 3) (4 (5 6))))
+;(div-by 30)
+;(count-evens '(1 4 3 7 8))
+;(count-evens-nested '(1 (2 3) (4 (5 6))))
