@@ -1,6 +1,6 @@
 # Josiah Schmitz
 
-# NOTE: Method pair? is a general object method.
+# NOTES: Method pair? is a general object method.
 # Methods list?, count, to_s, and null? are defined in both NilClass and Pair class. 
 # All other methods requested (except global cons method) are specific to the Pair class.
 
@@ -13,7 +13,7 @@ class Object
 
 end
 
-# Add methods to NilClass to handle the empty list represented by the nil value
+# Add custom methods to NilClass to handle the empty list represented by the nil value
 class NilClass
 
     def list?()
@@ -81,12 +81,11 @@ class Pair
         else
             str = str.strip
         end
-        str
+        return str
     end
 
    # Returns true if the pair is a proper list (ends with null value)
    def list?()
-        
         # BASE CASE: If the object is not a pair, return false
         # BASE CASE: If the pair ends in null, return true
         # RECURSIVE CASE: If the cdr is a pair, recursively call list? on the cdr
@@ -104,7 +103,6 @@ class Pair
 
     # Returns the count of elements in a proper list and false if not a proper list
     def count()
-
         # BASE CASE: If the object is not a proper list, return false
         # BASE CASE: If the cdr is null, return 1
         # RECURSIVE CASE: Return 1 + the count of the cdr
@@ -117,21 +115,33 @@ class Pair
         end
     end
 
-    # Returns false since a Pair can never be null
+    # Returns false since a pair can never be null
     def null?()
-
         return false
-
     end
 
+    def append(other)   
+        # BASE CASE: If the object is not a list, return false
+        # BASE CASE: If the cdr is null, return a new pair with car and other as values
+        # RECURSIVE CASE: Return a new pair with the car and the result of appending other to the cdr
+        if (self.list? == false)
+            return false
+        elsif (self.cdr == Pair.null)
+            return cons(self.car, other)
+        else
+            return cons(self.car, self.cdr.append(other))
+        end
+    end
 
 end
 
-# Racket-style function to create a new Pair
+# Function to create a new Pair using Racket style cons
 def cons(value1, value2)
     Pair.new(value1, value2)
 end
 
+
+=begin
 puts("GIVEN TESTS:")
 a = Pair.new(7, 5)
 puts(a.to_s) # same as puts(a) ==> (7 . 5) 
@@ -141,8 +151,8 @@ puts(a.pair?) # ==> true
 puts(a.list?) # ==> false
 puts(b.list?) # ==> true
 puts(b.count) # ==> 3
-#c = b.append(a)
-#puts(c) # same as puts(c.to_s) ==> (1 2 3 7 . 5)
+c = b.append(a)
+puts(c) # same as puts(c.to_s) ==> (1 2 3 7 . 5)
 somestring = "hello world"
 puts(somestring.pair?) # ==> false
 puts("END GIVEN TESTS\n\n")
@@ -159,3 +169,7 @@ puts(b)
 puts(b.list?)
 puts(b.count)
 puts(b.null?)
+d = cons(Pair.null, Pair.null)
+c = a.append(d)
+puts(c)
+=end
