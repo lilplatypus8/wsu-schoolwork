@@ -1,6 +1,8 @@
 # Josiah Schmitz
 
 class BST
+
+  # Node class to represent each node in the BST
   class Node
     attr_accessor :value, :left, :right
 
@@ -18,16 +20,6 @@ class BST
     @compare = block
     @size = 0
     @root = nil
-  end
-
-  # Helper for compare block
-  # Calls compare block if one is give, otherwise calls the <=> operator
-  def compare(a, b)
-    if @compare != nil
-      return @compare.call(a, b)
-    else
-      return a <=> b
-    end
   end
 
   # Adds given item to BST using comparison block
@@ -80,32 +72,6 @@ class BST
     return search(@root, item)
   end
 
-  # Helper method for recursive searching for include?
-  def search(node, item)
-
-    # Node to hold current position in tree
-    current = node
-
-    # If current node is nil, item is not in the tree
-    if current == nil
-      return false
-    end
-
-    # Contains result of comparing the node's value to the item's
-    compare_result = compare(item, current.value)
-
-    # If item is equal to node, return true
-    if current.value == item
-      return true
-    elsif compare_result == -1
-      # If item is less than node, go left and call include? recursively
-      return search(current.left, item)
-    end
-
-    # If item is greater than node, go right and call include? recursively
-    return search(current.right, item)
-  end
-
   # Returns the number of items in the BST
   def size()
     @size
@@ -116,18 +82,15 @@ class BST
     inorder_traversal(@root, &block)
   end
 
-  # Helper method for recursive in-order traversal in each_inorder
-  def inorder_traversal(node, &block)
+  # Traverses the BST in order and returns a BST with items passed to block
+  def collect_inorder(&block)
 
-    # If node is nil, branch is fully searched
-    if node == nil
-      return
-    end
+    # Creates new BST to hold passed items (uses same comparison block)
+    new_bst = BST.new(&@compare)
 
-    # Traverse left subtree, then visit node, then traverse right subtree
-    inorder_traversal(node.left, &block)
-    block.call(node.value)
-    inorder_traversal(node.right, &block)
+    # Uses each_inorder to add items transformed by block to new BST
+    each_inorder { |value| new_bst.add(block.call(value)) }
+    return new_bst
   end
 
   # Returns a sorted array of all items in the BST
@@ -138,13 +101,85 @@ class BST
     each_inorder { |value| array.push(value) }
     return array
   end
-end
 
-# Test code:
-tree = BST.new
-tree.add(5).add(3).add(7).add(2).add(4).add(6).add(8)
-puts "Tree: #{tree.to_a()}\n"
-puts "Size: #{tree.size()}\n"
-puts "Includes 4? #{tree.include?(4)}"
-puts "Includes 9? #{tree.include?(9)}\n"
-puts "Empty? #{tree.empty?}\n"
+  # Creates deep copy of BST
+  def dup()
+
+    # Creates new BST to hold passed items (uses same comparison block)
+    new_bst = BST.new(&@compare)
+
+    # Uses helper method to deep copy nodes recursively starting with root
+    new_bst.root = copy_node(@root)
+    new_bst.size = @size
+    return new_bst
+  end
+
+  #-----------------------------------------------------------------------------
+  # HELPER METHODS BELOW
+
+  # Helper for compare block
+  # Calls compare block if one is give, otherwise calls the <=> operator
+  def compare(a, b)
+    if @compare != nil
+      return @compare.call(a, b)
+    else
+      return a <=> b
+    end
+  end
+
+  # Helper method for recursive searching for include?
+  def search(node, item)
+
+    # Node to hold current position in tree
+    current = node
+
+    # BASE CASE: if current node is nil, item is not in the tree
+    if current == nil
+      return false
+    end
+
+    # Contains result of comparing the node's value to the item's
+    compare_result = compare(item, current.value)
+
+    # RECURSIVE CASE:
+    # If item is equal to node, return true
+    if compare_result == 0
+      return true
+    elsif compare_result == -1
+      # If item is less than node, go left and call include? recursively
+      return search(current.left, item)
+    end
+
+    # If item is greater than node, go right and call include? recursively
+    return search(current.right, item)
+  end
+
+  # Helper method for recursive in-order traversal in each_inorder
+  def inorder_traversal(node, &block)
+
+    # BASE CASE: if node is nil, branch is fully searched
+    if node == nil
+      return
+    end
+
+    # RECURSIVE CASE: traverse left subtree, then visit node, then traverse right subtree
+    inorder_traversal(node.left, &block)
+    block.call(node.value)
+    inorder_traversal(node.right, &block)
+  end
+
+  # Recursive helper method for deep copying nodes in dup
+  def copy_node(node)
+
+    # BASE CASE: If node is nil, return nil
+    if node == nil
+      return nil
+    end
+
+    # RECURSIVE CASE: Create new node with same value as original node and recursively copy left and right nodes
+    new_node = Node.new(node.value)
+    new_node.left = copy_node(node.left)
+    new_node.right = copy_node(node.right)
+    return new_node
+  end
+end
