@@ -81,7 +81,7 @@ if __name__ == "__main__":
                 chosen_length = int(length_input)
                 
                 # Check if there are any words of chosen length left
-                if len(words_list[chosen_length]) == 0:
+                if chosen_length not in words_list or len(words_list[chosen_length]) == 0:
                     print(f"No more words of length {chosen_length} available. Please choose a different length.")
                     continue
                     
