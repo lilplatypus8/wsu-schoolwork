@@ -1,0 +1,7 @@
+qiskit==2.2.2
+qiskit-aer==0.17.1
+qiskit-ibm-runtime==0.43.0
+matplotlib==3.10.0
+pylatexenc==2.10
+notebook==7.1.2
+ipython==8.21.0
