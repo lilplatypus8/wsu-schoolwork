@@ -1077,6 +1077,140 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "R330_1%_0603_8"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at -4.064 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "330"
+				(at 3.302 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "330 1% 0603"
+				(at -2.54 15.494 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "YAGEO"
+				(at -3.302 11.684 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ManufacturerPartNumber" "RC0603FR-07330RL"
+				(at -1.524 13.716 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R330_1%_0603_8_0_1"
+				(rectangle
+					(start -1.27 0.635)
+					(end 1.27 -0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R330_1%_0603_8_1_1"
+				(pin bidirectional line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Wright_State_Library:ESP32_30Pin"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2085,7 +2219,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -2.54 0 0)
 					(length 1.27)
 					(name ""
@@ -2103,7 +2237,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin passive line
 					(at 1.27 0 180)
 					(length 1.27)
 					(name ""
@@ -2245,7 +2379,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -2.54 0 0)
 					(length 1.27)
 					(name ""
@@ -2263,7 +2397,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin passive line
 					(at 1.27 0 180)
 					(length 1.27)
 					(name ""
@@ -2405,7 +2539,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -2.54 0 0)
 					(length 1.27)
 					(name ""
@@ -2423,7 +2557,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin passive line
 					(at 1.27 0 180)
 					(length 1.27)
 					(name ""
@@ -2673,140 +2807,6 @@
 				)
 			)
 			(symbol "R1K_1%_0603_1_1"
-				(pin bidirectional line
-					(at -2.54 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 2.54 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Wright_State_Library:R330_1%_0603"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at -4.064 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "330"
-				(at 3.302 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "330 1% 0603"
-				(at -2.54 15.494 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "YAGEO"
-				(at -3.302 11.684 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ManufacturerPartNumber" "RC0603FR-07330RL"
-				(at -1.524 13.716 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R330_1%_0603_0_1"
-				(rectangle
-					(start -1.27 0.635)
-					(end 1.27 -0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R330_1%_0603_1_1"
 				(pin bidirectional line
 					(at -2.54 0 0)
 					(length 1.27)
@@ -3351,12 +3351,133 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 135.89 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "30f50efa-777b-463f-83f6-0ef6975a7423")
+	)
+	(junction
+		(at 148.59 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5875e340-4b57-4118-b06f-96dfbd139450")
 	)
 	(junction
 		(at 224.79 109.22)
@@ -3369,6 +3490,78 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9728eae7-0a29-4e9d-9030-c779b79d1a9b")
+	)
+	(no_connect
+		(at 179.07 105.41)
+		(uuid "0f999beb-fa15-4179-8fae-9c93d8110994")
+	)
+	(no_connect
+		(at 179.07 110.49)
+		(uuid "1f636da1-b7a3-4bc9-af12-247d7b81a93f")
+	)
+	(no_connect
+		(at 151.13 90.17)
+		(uuid "215e82a3-78b3-4c81-a845-2d0a9812d3c0")
+	)
+	(no_connect
+		(at 179.07 77.47)
+		(uuid "2ee0313c-a38f-489a-a482-5f1ce09ce77b")
+	)
+	(no_connect
+		(at 151.13 105.41)
+		(uuid "50c36d1f-93c4-4ee9-82d6-355bb9b699d1")
+	)
+	(no_connect
+		(at 179.07 107.95)
+		(uuid "55803924-a5fb-43e8-bcb1-9cd1ffd67246")
+	)
+	(no_connect
+		(at 151.13 82.55)
+		(uuid "59a46327-6706-4d48-a8f9-1862dba6fd9b")
+	)
+	(no_connect
+		(at 151.13 107.95)
+		(uuid "5fc1b615-4865-4f96-910c-0e1c17a887b7")
+	)
+	(no_connect
+		(at 151.13 80.01)
+		(uuid "65957887-28ac-4b0f-a366-19d06e512955")
+	)
+	(no_connect
+		(at 151.13 87.63)
+		(uuid "7a16510d-d1c0-4c78-a410-8962ea3cebac")
+	)
+	(no_connect
+		(at 179.07 85.09)
+		(uuid "8751e680-9f31-4eb2-b794-e582db7589fb")
+	)
+	(no_connect
+		(at 151.13 95.25)
+		(uuid "a0f6e661-5f4b-4f27-9db8-4f9eed6badf3")
+	)
+	(no_connect
+		(at 151.13 85.09)
+		(uuid "a5eca7f8-5dc0-4437-80bc-52836c7d67a4")
+	)
+	(no_connect
+		(at 179.07 80.01)
+		(uuid "b1a53b50-77fc-44e0-975f-e1b15e544482")
+	)
+	(no_connect
+		(at 151.13 110.49)
+		(uuid "cd32d24c-8655-4853-bd2f-360a9fb77379")
+	)
+	(no_connect
+		(at 151.13 92.71)
+		(uuid "e2e21887-be8a-44b8-b60c-61d360303848")
+	)
+	(no_connect
+		(at 179.07 113.03)
+		(uuid "f3ebb6ac-20cb-45a3-8e03-6d805507fc7b")
+	)
+	(no_connect
+		(at 179.07 102.87)
+		(uuid "fafd0fe3-df06-4e47-a40c-d8aa49adb35b")
 	)
 	(wire
 		(pts
@@ -4898,84 +5091,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 167.64 76.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "268687dc-d3af-4666-9fb9-a4018766d3ee")
-		(property "Reference" "#PWR014"
-			(at 167.64 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 167.64 71.12 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 167.64 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 167.64 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bebd4a2f-d160-48b1-93d9-d9f365f5f559")
-		)
-		(instances
-			(project "ESP32"
-				(path "/41e687bb-bb38-436f-b2ad-ca9f4eebe283"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Wright_State_Library:LED_GREEN_0603")
 		(at 129.54 91.44 0)
 		(unit 1)
@@ -5078,7 +5193,7 @@
 		)
 	)
 	(symbol
-		(lib_name "R330_1%_0603_1")
+		(lib_name "R330_1%_0603_8")
 		(lib_id "Wright_State_Library:R330_1%_0603")
 		(at 220.98 58.42 0)
 		(unit 1)
@@ -5180,7 +5295,7 @@
 		)
 	)
 	(symbol
-		(lib_name "R330_1%_0603_7")
+		(lib_name "R330_1%_0603_1")
 		(lib_id "Wright_State_Library:R330_1%_0603")
 		(at 220.98 83.82 0)
 		(unit 1)
@@ -5745,7 +5860,86 @@
 		)
 	)
 	(symbol
-		(lib_name "R330_1%_0603_5")
+		(lib_id "power:PWR_FLAG")
+		(at 148.59 77.47 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62bf38d0-2872-49c6-8768-1cea9e2c3a86")
+		(property "Reference" "#FLG01"
+			(at 146.685 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 144.78 77.4699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 148.59 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3459bcb9-c2eb-4df3-859c-c7296d1da817")
+		)
+		(instances
+			(project "ESP32"
+				(path "/41e687bb-bb38-436f-b2ad-ca9f4eebe283"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R330_1%_0603_2")
 		(lib_id "Wright_State_Library:R330_1%_0603")
 		(at 220.98 96.52 0)
 		(unit 1)
@@ -5847,7 +6041,7 @@
 		)
 	)
 	(symbol
-		(lib_name "R330_1%_0603_6")
+		(lib_name "R330_1%_0603_3")
 		(lib_id "Wright_State_Library:R330_1%_0603")
 		(at 220.98 90.17 0)
 		(unit 1)
@@ -6283,7 +6477,7 @@
 		)
 	)
 	(symbol
-		(lib_name "R330_1%_0603_3")
+		(lib_name "R330_1%_0603_4")
 		(lib_id "Wright_State_Library:R330_1%_0603")
 		(at 220.98 71.12 0)
 		(unit 1)
@@ -6870,7 +7064,7 @@
 		)
 	)
 	(symbol
-		(lib_name "R330_1%_0603_4")
+		(lib_name "R330_1%_0603_5")
 		(lib_id "Wright_State_Library:R330_1%_0603")
 		(at 220.98 77.47 0)
 		(unit 1)
@@ -7051,7 +7245,7 @@
 		)
 	)
 	(symbol
-		(lib_name "R330_1%_0603_2")
+		(lib_name "R330_1%_0603_6")
 		(lib_id "Wright_State_Library:R330_1%_0603")
 		(at 220.98 64.77 0)
 		(unit 1)
@@ -7625,6 +7819,7 @@
 		)
 	)
 	(symbol
+		(lib_name "R330_1%_0603_7")
 		(lib_id "Wright_State_Library:R330_1%_0603")
 		(at 220.98 52.07 0)
 		(unit 1)

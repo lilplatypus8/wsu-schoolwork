@@ -736,7 +736,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 0 0 0)
+			(at 0.635 -0.635 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -756,7 +756,7 @@
 			)
 		)
 		(property "Footprint" "ESP32_30pin"
-			(at 0 -2.54 0)
+			(at 3.175 -0.635 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -790,104 +790,8 @@
 		)
 		(symbol "ESP32_30Pin_0_1"
 			(rectangle
-				(start -24.13 11.43)
-				(end 24.13 -11.43)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -21.59 5.08) (xy -20.32 5.08)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -21.59 2.54) (xy -20.32 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -21.59 0) (xy -20.32 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -21.59 -2.54) (xy -20.32 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -21.5975 2.5325)
-				(mid -22.4933 2.9067)
-				(end -22.8675 3.8025)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -21.5975 -2.5475)
-				(mid -22.4933 -2.1733)
-				(end -22.8675 -1.2775)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -22.86 3.81)
-				(mid -22.4873 4.7073)
-				(end -21.59 5.08)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -22.86 -1.27)
-				(mid -22.4873 -0.3727)
-				(end -21.59 0)
+				(start -10.795 -24.765)
+				(end 12.065 23.495)
 				(stroke
 					(width 0)
 					(type default)
@@ -897,7 +801,7 @@
 				)
 			)
 			(circle
-				(center -20.955 8.255)
+				(center -7.62 20.32)
 				(radius 1.27)
 				(stroke
 					(width 0)
@@ -908,7 +812,7 @@
 				)
 			)
 			(circle
-				(center -20.955 -7.62)
+				(center -7.62 -21.59)
 				(radius 1.27)
 				(stroke
 					(width 0)
@@ -920,7 +824,7 @@
 			)
 			(polyline
 				(pts
-					(xy -20.32 5.08) (xy -17.78 5.08)
+					(xy -4.445 -20.955) (xy -4.445 -18.415)
 				)
 				(stroke
 					(width 0)
@@ -932,7 +836,7 @@
 			)
 			(polyline
 				(pts
-					(xy -20.32 -4.445) (xy -22.86 -4.445)
+					(xy -4.445 -22.225) (xy -4.445 -20.955)
 				)
 				(stroke
 					(width 0)
@@ -943,9 +847,9 @@
 				)
 			)
 			(arc
-				(start -17.7775 1.2675)
-				(mid -18.1502 0.3702)
-				(end -19.0475 -0.0025)
+				(start -1.8975 -22.2325)
+				(mid -2.2717 -23.1283)
+				(end -3.1675 -23.5025)
 				(stroke
 					(width 0)
 					(type default)
@@ -955,103 +859,9 @@
 				)
 			)
 			(arc
-				(start -17.7775 -3.1775)
-				(mid -18.1502 -4.0748)
-				(end -19.0475 -4.4475)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -19.04 2.545)
-				(mid -18.1442 2.1708)
-				(end -17.77 1.275)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -19.04 -2.535)
-				(mid -18.1442 -2.9092)
-				(end -17.77 -3.805)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -19.0475 2.5375) (xy -20.3175 2.5375)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -19.0475 -0.0025) (xy -20.3175 -0.0025)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -19.0475 -2.5425) (xy -20.3175 -2.5425)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -19.0475 -4.4475) (xy -20.3175 -4.4475)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 20.955 8.255)
-				(radius 1.27)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 20.955 -8.255)
-				(radius 1.27)
+				(start -3.175 -23.495)
+				(mid -4.0723 -23.1223)
+				(end -4.445 -22.225)
 				(stroke
 					(width 0)
 					(type default)
@@ -1061,8 +871,198 @@
 				)
 			)
 			(rectangle
-				(start 21.59 2.54)
-				(end 25.4 -2.54)
+				(start -1.905 20.955)
+				(end 3.175 24.765)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.905 -22.225) (xy -1.905 -20.955)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.9025 -19.6825) (xy -1.9025 -20.9525)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -0.6325 -18.4125)
+				(mid 0.2648 -18.7852)
+				(end 0.6375 -19.6825)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -1.91 -19.675)
+				(mid -1.5358 -18.7792)
+				(end -0.64 -18.405)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.635 -22.225) (xy 0.635 -20.955)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.6375 -19.6825) (xy 0.6375 -20.9525)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 3.1825 -22.2325)
+				(mid 2.8083 -23.1283)
+				(end 1.9125 -23.5025)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.905 -23.495)
+				(mid 1.0077 -23.1223)
+				(end 0.635 -22.225)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.175 -22.225) (xy 3.175 -20.955)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.1775 -19.6825) (xy 3.1775 -20.9525)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 3.8125 -18.4125)
+				(mid 4.7098 -18.7852)
+				(end 5.0825 -19.6825)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 3.17 -19.675)
+				(mid 3.5442 -18.7792)
+				(end 4.44 -18.405)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -20.955) (xy 5.08 -23.495)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.0825 -19.6825) (xy 5.0825 -20.9525)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 8.255 -21.59)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 8.89 20.32)
+				(radius 1.27)
 				(stroke
 					(width 0)
 					(type default)
@@ -1074,7 +1074,7 @@
 		)
 		(symbol "ESP32_30Pin_1_1"
 			(pin power_out line
-				(at 17.78 -13.97 90)
+				(at 14.605 17.145 180)
 				(length 2.54)
 				(name "VIN"
 					(effects
@@ -1092,7 +1092,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 -13.97 90)
+				(at 14.605 14.605 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1110,7 +1110,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 12.7 -13.97 90)
+				(at 14.605 12.065 180)
 				(length 2.54)
 				(name "GPIO13"
 					(effects
@@ -1128,7 +1128,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 10.16 -13.97 90)
+				(at 14.605 9.525 180)
 				(length 2.54)
 				(name "GPIO12"
 					(effects
@@ -1146,7 +1146,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 7.62 -13.97 90)
+				(at 14.605 6.985 180)
 				(length 2.54)
 				(name "GPIO14"
 					(effects
@@ -1164,7 +1164,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 5.08 -13.97 90)
+				(at 14.605 4.445 180)
 				(length 2.54)
 				(name "GPIO27"
 					(effects
@@ -1182,7 +1182,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 2.54 -13.97 90)
+				(at 14.605 1.905 180)
 				(length 2.54)
 				(name "GPIO26"
 					(effects
@@ -1200,7 +1200,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -13.97 90)
+				(at 14.605 -0.635 180)
 				(length 2.54)
 				(name "GPIO25"
 					(effects
@@ -1218,7 +1218,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -2.54 -13.97 90)
+				(at 14.605 -3.175 180)
 				(length 2.54)
 				(name "GPIO33"
 					(effects
@@ -1236,7 +1236,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -5.08 -13.97 90)
+				(at 14.605 -5.715 180)
 				(length 2.54)
 				(name "GPIO32"
 					(effects
@@ -1254,7 +1254,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -7.62 -13.97 90)
+				(at 14.605 -8.255 180)
 				(length 2.54)
 				(name "GPIO35"
 					(effects
@@ -1272,7 +1272,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -10.16 -13.97 90)
+				(at 14.605 -10.795 180)
 				(length 2.54)
 				(name "GPIO34"
 					(effects
@@ -1290,7 +1290,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -12.7 -13.97 90)
+				(at 14.605 -13.335 180)
 				(length 2.54)
 				(name "GPIO39"
 					(effects
@@ -1308,7 +1308,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.24 -13.97 90)
+				(at 14.605 -15.875 180)
 				(length 2.54)
 				(name "GPIO36"
 					(effects
@@ -1326,7 +1326,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -13.97 90)
+				(at 14.605 -18.415 180)
 				(length 2.54)
 				(name "EN"
 					(effects
@@ -1344,7 +1344,7 @@
 				)
 			)
 			(pin output line
-				(at 17.78 13.97 270)
+				(at -13.335 17.145 0)
 				(length 2.54)
 				(name "3.3v"
 					(effects
@@ -1362,7 +1362,7 @@
 				)
 			)
 			(pin power_in line
-				(at 15.24 13.97 270)
+				(at -13.335 14.605 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1380,7 +1380,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 12.7 13.97 270)
+				(at -13.335 12.065 0)
 				(length 2.54)
 				(name "GPIO15"
 					(effects
@@ -1398,7 +1398,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 10.16 13.97 270)
+				(at -13.335 9.525 0)
 				(length 2.54)
 				(name "GPIO2"
 					(effects
@@ -1416,7 +1416,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 7.62 13.97 270)
+				(at -13.335 6.985 0)
 				(length 2.54)
 				(name "GPIO4"
 					(effects
@@ -1434,7 +1434,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 5.08 13.97 270)
+				(at -13.335 4.445 0)
 				(length 2.54)
 				(name "GPIO16"
 					(effects
@@ -1452,7 +1452,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 2.54 13.97 270)
+				(at -13.335 1.905 0)
 				(length 2.54)
 				(name "GPIO17"
 					(effects
@@ -1470,7 +1470,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 13.97 270)
+				(at -13.335 -0.635 0)
 				(length 2.54)
 				(name "GPIO5"
 					(effects
@@ -1488,7 +1488,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -2.54 13.97 270)
+				(at -13.335 -3.175 0)
 				(length 2.54)
 				(name "GPIO18"
 					(effects
@@ -1506,7 +1506,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -5.08 13.97 270)
+				(at -13.335 -5.715 0)
 				(length 2.54)
 				(name "GPIO19"
 					(effects
@@ -1524,7 +1524,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -7.62 13.97 270)
+				(at -13.335 -8.255 0)
 				(length 2.54)
 				(name "GPIO21"
 					(effects
@@ -1542,7 +1542,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -10.16 13.97 270)
+				(at -13.335 -10.795 0)
 				(length 2.54)
 				(name "GPIO3"
 					(effects
@@ -1560,7 +1560,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -12.7 13.97 270)
+				(at -13.335 -13.335 0)
 				(length 2.54)
 				(name "GPIO1"
 					(effects
@@ -1578,7 +1578,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.24 13.97 270)
+				(at -13.335 -15.875 0)
 				(length 2.54)
 				(name "GPIO22"
 					(effects
@@ -1596,7 +1596,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 13.97 270)
+				(at -13.335 -18.415 0)
 				(length 2.54)
 				(name "GPIO23"
 					(effects
@@ -1642,7 +1642,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1737,7 +1737,7 @@
 					(type none)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -2.54 0 0)
 				(length 1.27)
 				(name ""
@@ -1755,7 +1755,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at 1.27 0 180)
 				(length 1.27)
 				(name ""
@@ -1802,7 +1802,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1897,7 +1897,7 @@
 					(type none)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -2.54 0 0)
 				(length 1.27)
 				(name ""
@@ -1915,7 +1915,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at 1.27 0 180)
 				(length 1.27)
 				(name ""
@@ -1962,7 +1962,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2057,7 +2057,7 @@
 					(type none)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -2.54 0 0)
 				(length 1.27)
 				(name ""
@@ -2075,7 +2075,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at 1.27 0 180)
 				(length 1.27)
 				(name ""
@@ -2122,7 +2122,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2256,7 +2256,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2390,7 +2390,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2659,7 +2659,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

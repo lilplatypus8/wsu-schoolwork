@@ -755,7 +755,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ESP32_30pin"
+		(property "Footprint" "WrightStateFootprint:ESP32_30pin"
 			(at 3.175 -0.635 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1642,7 +1642,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1737,7 +1737,7 @@
 					(type none)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -2.54 0 0)
 				(length 1.27)
 				(name ""
@@ -1755,7 +1755,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at 1.27 0 180)
 				(length 1.27)
 				(name ""
@@ -1802,7 +1802,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1897,7 +1897,7 @@
 					(type none)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -2.54 0 0)
 				(length 1.27)
 				(name ""
@@ -1915,7 +1915,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at 1.27 0 180)
 				(length 1.27)
 				(name ""
@@ -1962,7 +1962,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2057,7 +2057,7 @@
 					(type none)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -2.54 0 0)
 				(length 1.27)
 				(name ""
@@ -2075,7 +2075,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at 1.27 0 180)
 				(length 1.27)
 				(name ""
@@ -2122,7 +2122,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2256,7 +2256,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2390,7 +2390,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2659,7 +2659,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
