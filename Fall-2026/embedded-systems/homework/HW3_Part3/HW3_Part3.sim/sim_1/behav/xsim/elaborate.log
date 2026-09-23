@@ -1,0 +1,16 @@
+Vivado Simulator v2026.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/AMDDesignTools/2026.1/Vivado/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot seq_rec_tb_behav xil_defaultlib.seq_rec_tb -log elaborate.log 
+INFO: [XSIM 43-3493] Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture process_3 of entity xil_defaultlib.seq_rec [seq_rec_default]
+Compiling architecture sim of entity xil_defaultlib.seq_rec_tb
+Built simulation snapshot seq_rec_tb_behav

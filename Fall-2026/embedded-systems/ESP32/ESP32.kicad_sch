@@ -5,1212 +5,6 @@
 	(uuid "41e687bb-bb38-436f-b2ad-ca9f4eebe283")
 	(paper "A4")
 	(lib_symbols
-		(symbol "R10K_1%_0603_1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at -4.064 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "10K"
-				(at 3.302 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "R10K 1% 0603"
-				(at -2.54 15.494 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "YAGEO"
-				(at -3.302 11.684 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ManufacturerPartNumber" "RC0603FR-0710KL"
-				(at -1.524 13.716 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R10K_1%_0603_1_0_1"
-				(rectangle
-					(start -1.27 0.635)
-					(end 1.27 -0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R10K_1%_0603_1_1_1"
-				(pin bidirectional line
-					(at -2.54 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 2.54 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "R330_1%_0603_1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at -4.064 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "330"
-				(at 3.302 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "330 1% 0603"
-				(at -2.54 15.494 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "YAGEO"
-				(at -3.302 11.684 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ManufacturerPartNumber" "RC0603FR-07330RL"
-				(at -1.524 13.716 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R330_1%_0603_1_0_1"
-				(rectangle
-					(start -1.27 0.635)
-					(end 1.27 -0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R330_1%_0603_1_1_1"
-				(pin bidirectional line
-					(at -2.54 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 2.54 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "R330_1%_0603_2"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at -4.064 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "330"
-				(at 3.302 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "330 1% 0603"
-				(at -2.54 15.494 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "YAGEO"
-				(at -3.302 11.684 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ManufacturerPartNumber" "RC0603FR-07330RL"
-				(at -1.524 13.716 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R330_1%_0603_2_0_1"
-				(rectangle
-					(start -1.27 0.635)
-					(end 1.27 -0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R330_1%_0603_2_1_1"
-				(pin bidirectional line
-					(at -2.54 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 2.54 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "R330_1%_0603_3"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at -4.064 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "330"
-				(at 3.302 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "330 1% 0603"
-				(at -2.54 15.494 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "YAGEO"
-				(at -3.302 11.684 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ManufacturerPartNumber" "RC0603FR-07330RL"
-				(at -1.524 13.716 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R330_1%_0603_3_0_1"
-				(rectangle
-					(start -1.27 0.635)
-					(end 1.27 -0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R330_1%_0603_3_1_1"
-				(pin bidirectional line
-					(at -2.54 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 2.54 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "R330_1%_0603_4"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at -4.064 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "330"
-				(at 3.302 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "330 1% 0603"
-				(at -2.54 15.494 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "YAGEO"
-				(at -3.302 11.684 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ManufacturerPartNumber" "RC0603FR-07330RL"
-				(at -1.524 13.716 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R330_1%_0603_4_0_1"
-				(rectangle
-					(start -1.27 0.635)
-					(end 1.27 -0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R330_1%_0603_4_1_1"
-				(pin bidirectional line
-					(at -2.54 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 2.54 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "R330_1%_0603_5"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at -4.064 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "330"
-				(at 3.302 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "330 1% 0603"
-				(at -2.54 15.494 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "YAGEO"
-				(at -3.302 11.684 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ManufacturerPartNumber" "RC0603FR-07330RL"
-				(at -1.524 13.716 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R330_1%_0603_5_0_1"
-				(rectangle
-					(start -1.27 0.635)
-					(end 1.27 -0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R330_1%_0603_5_1_1"
-				(pin bidirectional line
-					(at -2.54 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 2.54 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "R330_1%_0603_6"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at -4.064 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "330"
-				(at 3.302 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "330 1% 0603"
-				(at -2.54 15.494 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "YAGEO"
-				(at -3.302 11.684 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ManufacturerPartNumber" "RC0603FR-07330RL"
-				(at -1.524 13.716 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R330_1%_0603_6_0_1"
-				(rectangle
-					(start -1.27 0.635)
-					(end 1.27 -0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R330_1%_0603_6_1_1"
-				(pin bidirectional line
-					(at -2.54 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 2.54 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "R330_1%_0603_7"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at -4.064 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "330"
-				(at 3.302 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "330 1% 0603"
-				(at -2.54 15.494 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "YAGEO"
-				(at -3.302 11.684 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ManufacturerPartNumber" "RC0603FR-07330RL"
-				(at -1.524 13.716 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R330_1%_0603_7_0_1"
-				(rectangle
-					(start -1.27 0.635)
-					(end 1.27 -0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R330_1%_0603_7_1_1"
-				(pin bidirectional line
-					(at -2.54 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 2.54 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "R330_1%_0603_8"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at -4.064 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "330"
-				(at 3.302 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "330 1% 0603"
-				(at -2.54 15.494 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "YAGEO"
-				(at -3.302 11.684 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ManufacturerPartNumber" "RC0603FR-07330RL"
-				(at -1.524 13.716 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R330_1%_0603_8_0_1"
-				(rectangle
-					(start -1.27 0.635)
-					(end 1.27 -0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R330_1%_0603_8_1_1"
-				(pin bidirectional line
-					(at -2.54 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 2.54 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Wright_State_Library:ESP32_30Pin"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1218,7 +12,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at 0 0 0)
+				(at 0.635 -0.635 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1237,8 +31,8 @@
 					)
 				)
 			)
-			(property "Footprint" "ESP32_30pin"
-				(at 0 -2.54 0)
+			(property "Footprint" "WrightStateFootprint:ESP32_30pin"
+				(at 3.175 -0.635 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1272,104 +66,8 @@
 			)
 			(symbol "ESP32_30Pin_0_1"
 				(rectangle
-					(start -24.13 11.43)
-					(end 24.13 -11.43)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -21.59 5.08) (xy -20.32 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -21.59 2.54) (xy -20.32 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -21.59 0) (xy -20.32 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -21.59 -2.54) (xy -20.32 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -21.5975 2.5325)
-					(mid -22.4933 2.9067)
-					(end -22.8675 3.8025)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -21.5975 -2.5475)
-					(mid -22.4933 -2.1733)
-					(end -22.8675 -1.2775)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -22.86 3.81)
-					(mid -22.4873 4.7073)
-					(end -21.59 5.08)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -22.86 -1.27)
-					(mid -22.4873 -0.3727)
-					(end -21.59 0)
+					(start -10.795 -24.765)
+					(end 12.065 23.495)
 					(stroke
 						(width 0)
 						(type default)
@@ -1379,7 +77,7 @@
 					)
 				)
 				(circle
-					(center -20.955 8.255)
+					(center -7.62 20.32)
 					(radius 1.27)
 					(stroke
 						(width 0)
@@ -1390,7 +88,7 @@
 					)
 				)
 				(circle
-					(center -20.955 -7.62)
+					(center -7.62 -21.59)
 					(radius 1.27)
 					(stroke
 						(width 0)
@@ -1402,7 +100,7 @@
 				)
 				(polyline
 					(pts
-						(xy -20.32 5.08) (xy -17.78 5.08)
+						(xy -4.445 -20.955) (xy -4.445 -18.415)
 					)
 					(stroke
 						(width 0)
@@ -1414,7 +112,7 @@
 				)
 				(polyline
 					(pts
-						(xy -20.32 -4.445) (xy -22.86 -4.445)
+						(xy -4.445 -22.225) (xy -4.445 -20.955)
 					)
 					(stroke
 						(width 0)
@@ -1425,9 +123,9 @@
 					)
 				)
 				(arc
-					(start -17.7775 1.2675)
-					(mid -18.1502 0.3702)
-					(end -19.0475 -0.0025)
+					(start -1.8975 -22.2325)
+					(mid -2.2717 -23.1283)
+					(end -3.1675 -23.5025)
 					(stroke
 						(width 0)
 						(type default)
@@ -1437,103 +135,9 @@
 					)
 				)
 				(arc
-					(start -17.7775 -3.1775)
-					(mid -18.1502 -4.0748)
-					(end -19.0475 -4.4475)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -19.04 2.545)
-					(mid -18.1442 2.1708)
-					(end -17.77 1.275)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -19.04 -2.535)
-					(mid -18.1442 -2.9092)
-					(end -17.77 -3.805)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -19.0475 2.5375) (xy -20.3175 2.5375)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -19.0475 -0.0025) (xy -20.3175 -0.0025)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -19.0475 -2.5425) (xy -20.3175 -2.5425)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -19.0475 -4.4475) (xy -20.3175 -4.4475)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 20.955 8.255)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 20.955 -8.255)
-					(radius 1.27)
+					(start -3.175 -23.495)
+					(mid -4.0723 -23.1223)
+					(end -4.445 -22.225)
 					(stroke
 						(width 0)
 						(type default)
@@ -1543,8 +147,198 @@
 					)
 				)
 				(rectangle
-					(start 21.59 2.54)
-					(end 25.4 -2.54)
+					(start -1.905 20.955)
+					(end 3.175 24.765)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -22.225) (xy -1.905 -20.955)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.9025 -19.6825) (xy -1.9025 -20.9525)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.6325 -18.4125)
+					(mid 0.2648 -18.7852)
+					(end 0.6375 -19.6825)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.91 -19.675)
+					(mid -1.5358 -18.7792)
+					(end -0.64 -18.405)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -22.225) (xy 0.635 -20.955)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.6375 -19.6825) (xy 0.6375 -20.9525)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.1825 -22.2325)
+					(mid 2.8083 -23.1283)
+					(end 1.9125 -23.5025)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.905 -23.495)
+					(mid 1.0077 -23.1223)
+					(end 0.635 -22.225)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 -22.225) (xy 3.175 -20.955)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.1775 -19.6825) (xy 3.1775 -20.9525)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.8125 -18.4125)
+					(mid 4.7098 -18.7852)
+					(end 5.0825 -19.6825)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.17 -19.675)
+					(mid 3.5442 -18.7792)
+					(end 4.44 -18.405)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -20.955) (xy 5.08 -23.495)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.0825 -19.6825) (xy 5.0825 -20.9525)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 8.255 -21.59)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 8.89 20.32)
+					(radius 1.27)
 					(stroke
 						(width 0)
 						(type default)
@@ -1556,7 +350,7 @@
 			)
 			(symbol "ESP32_30Pin_1_1"
 				(pin power_out line
-					(at 17.78 -13.97 90)
+					(at 14.605 17.145 180)
 					(length 2.54)
 					(name "VIN"
 						(effects
@@ -1574,7 +368,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 -13.97 90)
+					(at 14.605 14.605 180)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -1592,7 +386,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 12.7 -13.97 90)
+					(at 14.605 12.065 180)
 					(length 2.54)
 					(name "GPIO13"
 						(effects
@@ -1610,7 +404,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 10.16 -13.97 90)
+					(at 14.605 9.525 180)
 					(length 2.54)
 					(name "GPIO12"
 						(effects
@@ -1628,7 +422,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 7.62 -13.97 90)
+					(at 14.605 6.985 180)
 					(length 2.54)
 					(name "GPIO14"
 						(effects
@@ -1646,7 +440,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 5.08 -13.97 90)
+					(at 14.605 4.445 180)
 					(length 2.54)
 					(name "GPIO27"
 						(effects
@@ -1664,7 +458,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 2.54 -13.97 90)
+					(at 14.605 1.905 180)
 					(length 2.54)
 					(name "GPIO26"
 						(effects
@@ -1682,7 +476,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 0 -13.97 90)
+					(at 14.605 -0.635 180)
 					(length 2.54)
 					(name "GPIO25"
 						(effects
@@ -1700,7 +494,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -2.54 -13.97 90)
+					(at 14.605 -3.175 180)
 					(length 2.54)
 					(name "GPIO33"
 						(effects
@@ -1718,7 +512,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -5.08 -13.97 90)
+					(at 14.605 -5.715 180)
 					(length 2.54)
 					(name "GPIO32"
 						(effects
@@ -1736,7 +530,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -7.62 -13.97 90)
+					(at 14.605 -8.255 180)
 					(length 2.54)
 					(name "GPIO35"
 						(effects
@@ -1754,7 +548,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -10.16 -13.97 90)
+					(at 14.605 -10.795 180)
 					(length 2.54)
 					(name "GPIO34"
 						(effects
@@ -1772,7 +566,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -12.7 -13.97 90)
+					(at 14.605 -13.335 180)
 					(length 2.54)
 					(name "GPIO39"
 						(effects
@@ -1790,7 +584,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -15.24 -13.97 90)
+					(at 14.605 -15.875 180)
 					(length 2.54)
 					(name "GPIO36"
 						(effects
@@ -1808,7 +602,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 -13.97 90)
+					(at 14.605 -18.415 180)
 					(length 2.54)
 					(name "EN"
 						(effects
@@ -1825,8 +619,8 @@
 						)
 					)
 				)
-				(pin output line
-					(at 17.78 13.97 270)
+				(pin power_out line
+					(at -13.335 17.145 0)
 					(length 2.54)
 					(name "3.3v"
 						(effects
@@ -1844,7 +638,7 @@
 					)
 				)
 				(pin power_in line
-					(at 15.24 13.97 270)
+					(at -13.335 14.605 0)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -1862,7 +656,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 12.7 13.97 270)
+					(at -13.335 12.065 0)
 					(length 2.54)
 					(name "GPIO15"
 						(effects
@@ -1880,7 +674,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 10.16 13.97 270)
+					(at -13.335 9.525 0)
 					(length 2.54)
 					(name "GPIO2"
 						(effects
@@ -1898,7 +692,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 7.62 13.97 270)
+					(at -13.335 6.985 0)
 					(length 2.54)
 					(name "GPIO4"
 						(effects
@@ -1916,7 +710,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 5.08 13.97 270)
+					(at -13.335 4.445 0)
 					(length 2.54)
 					(name "GPIO16"
 						(effects
@@ -1934,7 +728,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 2.54 13.97 270)
+					(at -13.335 1.905 0)
 					(length 2.54)
 					(name "GPIO17"
 						(effects
@@ -1952,7 +746,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 0 13.97 270)
+					(at -13.335 -0.635 0)
 					(length 2.54)
 					(name "GPIO5"
 						(effects
@@ -1970,7 +764,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -2.54 13.97 270)
+					(at -13.335 -3.175 0)
 					(length 2.54)
 					(name "GPIO18"
 						(effects
@@ -1988,7 +782,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -5.08 13.97 270)
+					(at -13.335 -5.715 0)
 					(length 2.54)
 					(name "GPIO19"
 						(effects
@@ -2006,7 +800,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -7.62 13.97 270)
+					(at -13.335 -8.255 0)
 					(length 2.54)
 					(name "GPIO21"
 						(effects
@@ -2024,7 +818,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -10.16 13.97 270)
+					(at -13.335 -10.795 0)
 					(length 2.54)
 					(name "GPIO3"
 						(effects
@@ -2042,7 +836,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -12.7 13.97 270)
+					(at -13.335 -13.335 0)
 					(length 2.54)
 					(name "GPIO1"
 						(effects
@@ -2060,7 +854,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -15.24 13.97 270)
+					(at -13.335 -15.875 0)
 					(length 2.54)
 					(name "GPIO22"
 						(effects
@@ -2078,7 +872,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 13.97 270)
+					(at -13.335 -18.415 0)
 					(length 2.54)
 					(name "GPIO23"
 						(effects
@@ -2124,7 +918,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2284,7 +1078,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2444,7 +1238,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2595,7 +1389,7 @@
 				)
 			)
 			(property "Value" "10K"
-				(at 3.302 1.27 0)
+				(at 4.064 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2604,7 +1398,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2673,38 +1467,38 @@
 				)
 			)
 			(symbol "R10K_1%_0603_1_1"
-				(pin bidirectional line
+				(pin passive line
 					(at -2.54 0 0)
 					(length 1.27)
-					(name "1"
+					(name ""
 						(effects
 							(font
 								(size 0.635 0.635)
 							)
 						)
 					)
-					(number ""
+					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.635 0.635)
 							)
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at 2.54 0 180)
 					(length 1.27)
-					(name "2"
+					(name ""
 						(effects
 							(font
 								(size 0.635 0.635)
 							)
 						)
 					)
-					(number ""
+					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.635 0.635)
 							)
 						)
 					)
@@ -2738,7 +1532,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2807,38 +1601,172 @@
 				)
 			)
 			(symbol "R1K_1%_0603_1_1"
-				(pin bidirectional line
+				(pin passive line
 					(at -2.54 0 0)
 					(length 1.27)
-					(name "1"
+					(name ""
 						(effects
 							(font
 								(size 0.635 0.635)
 							)
 						)
 					)
-					(number ""
+					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.635 0.635)
 							)
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at 2.54 0 180)
 					(length 1.27)
-					(name "2"
+					(name ""
 						(effects
 							(font
 								(size 0.635 0.635)
 							)
 						)
 					)
-					(number ""
+					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Wright_State_Library:R330_1%_0603"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at -4.064 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "330"
+				(at 3.302 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "330 1% 0603"
+				(at -2.54 15.494 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "YAGEO"
+				(at -3.302 11.684 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ManufacturerPartNumber" "RC0603FR-07330RL"
+				(at -1.524 13.716 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R330_1%_0603_0_1"
+				(rectangle
+					(start -1.27 0.635)
+					(end 1.27 -0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R330_1%_0603_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.635 0.635)
 							)
 						)
 					)
@@ -2960,7 +1888,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at 2.54 0 180)
 					(length 1.27)
 					(name ""
@@ -3007,7 +1935,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3076,7 +2004,7 @@
 				)
 			)
 			(symbol "TEST_POINT_0603_1_1"
-				(pin bidirectional line
+				(pin passive line
 					(at -1.27 0 0)
 					(length 1.27)
 					(name ""
@@ -3474,16 +2402,16 @@
 		(uuid "30f50efa-777b-463f-83f6-0ef6975a7423")
 	)
 	(junction
-		(at 148.59 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5875e340-4b57-4118-b06f-96dfbd139450")
-	)
-	(junction
 		(at 224.79 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "81fa9bd2-3589-46d4-b588-676202aa4289")
+		(uuid "5474cb27-6202-4464-8d9c-f21a3ec85879")
+	)
+	(junction
+		(at 232.41 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55993c30-f9b3-4f27-8b75-bf7d9f5a0561")
 	)
 	(junction
 		(at 224.79 121.92)
@@ -3544,10 +2472,6 @@
 		(uuid "a5eca7f8-5dc0-4437-80bc-52836c7d67a4")
 	)
 	(no_connect
-		(at 179.07 80.01)
-		(uuid "b1a53b50-77fc-44e0-975f-e1b15e544482")
-	)
-	(no_connect
 		(at 151.13 110.49)
 		(uuid "cd32d24c-8655-4853-bd2f-360a9fb77379")
 	)
@@ -3562,6 +2486,10 @@
 	(no_connect
 		(at 179.07 102.87)
 		(uuid "fafd0fe3-df06-4e47-a40c-d8aa49adb35b")
+	)
+	(no_connect
+		(at 179.07 80.01)
+		(uuid "fc534103-b8e5-4d81-aaee-ba895b83fb95")
 	)
 	(wire
 		(pts
@@ -3625,16 +2553,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 52.07) (xy 232.41 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "133f9291-5a8e-4e8c-a4a8-36a47dd59f2f")
-	)
-	(wire
-		(pts
 			(xy 228.6 71.12) (xy 232.41 71.12)
 		)
 		(stroke
@@ -3642,6 +2560,16 @@
 			(type default)
 		)
 		(uuid "1400b53d-002d-4149-beeb-1416651cbafe")
+	)
+	(wire
+		(pts
+			(xy 224.79 107.95) (xy 224.79 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1538d7e6-95b8-4215-ad26-d9d09e4ae4f1")
 	)
 	(wire
 		(pts
@@ -3675,16 +2603,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 64.77) (xy 232.41 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c751094-0b11-4a60-9432-a46c90bac061")
-	)
-	(wire
-		(pts
 			(xy 236.22 121.92) (xy 238.76 121.92)
 		)
 		(stroke
@@ -3692,6 +2610,26 @@
 			(type default)
 		)
 		(uuid "3544cfa7-f4d6-49d4-9dc9-06c822bdc3ce")
+	)
+	(wire
+		(pts
+			(xy 228.6 58.42) (xy 232.41 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e00c5e6-ce4a-4bc1-a962-7df2ac8b3d40")
+	)
+	(wire
+		(pts
+			(xy 224.79 109.22) (xy 231.14 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43ad5323-71c2-47de-b267-daa5c2b9afa0")
 	)
 	(wire
 		(pts
@@ -3745,16 +2683,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 58.42) (xy 232.41 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61750a76-173e-498d-beca-c34d38ccb2fe")
-	)
-	(wire
-		(pts
 			(xy 179.07 87.63) (xy 180.34 87.63)
 		)
 		(stroke
@@ -3772,16 +2700,6 @@
 			(type default)
 		)
 		(uuid "64d4bbe4-5bd8-404d-9857-a58a23246cfe")
-	)
-	(wire
-		(pts
-			(xy 214.63 109.22) (xy 224.79 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6639c1c4-c9da-443c-a553-50e3d0fad8c8")
 	)
 	(wire
 		(pts
@@ -3855,13 +2773,23 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 109.22) (xy 231.14 109.22)
+			(xy 214.63 109.22) (xy 224.79 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8645296b-847d-4d60-b5de-dc8851f95b8f")
+	)
+	(wire
+		(pts
+			(xy 228.6 64.77) (xy 232.41 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bd1d377-029e-4e6c-9a1a-d6caf617ec3b")
 	)
 	(wire
 		(pts
@@ -3955,16 +2883,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 77.47) (xy 151.13 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aed8794a-bd73-40aa-b47b-49a032599688")
-	)
-	(wire
-		(pts
 			(xy 214.63 121.92) (xy 224.79 121.92)
 		)
 		(stroke
@@ -4025,13 +2943,13 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 107.95) (xy 224.79 109.22)
+			(xy 228.6 52.07) (xy 232.41 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f2a7af03-6b34-4f21-8040-ba44939154b5")
+		(uuid "eb7bc0bd-039c-4d7e-ab1a-85c6c79f8074")
 	)
 	(wire
 		(pts
@@ -4052,6 +2970,16 @@
 			(type default)
 		)
 		(uuid "fa096ac2-57c8-4906-ad1e-6c89eab4cb5e")
+	)
+	(wire
+		(pts
+			(xy 147.32 77.47) (xy 151.13 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff81f05c-dc0e-49e2-aa5e-cdbe8d02db4e")
 	)
 	(label "NETSW1"
 		(at 144.78 100.33 0)
@@ -4113,7 +3041,7 @@
 		)
 		(uuid "55dc9f5a-7519-4d51-9830-1c33ddd2b692")
 	)
-	(label "LED5"
+	(label "LED8"
 		(at 146.05 113.03 0)
 		(effects
 			(font
@@ -4285,7 +3213,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "WrightStateFootprint:TL2233"
 			(at 233.68 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -4387,7 +3315,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 227.33 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -4458,8 +3386,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 232.41 58.42 90)
+		(lib_id "power:PWR_FLAG")
+		(at 232.41 52.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4468,9 +3396,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0eefe29e-e468-4c5a-be34-1904127f0929")
-		(property "Reference" "#PWR02"
-			(at 238.76 58.42 0)
+		(uuid "0a5e66e6-f884-48c9-9213-c773ed68c9a6")
+		(property "Reference" "#FLG01"
+			(at 232.41 50.165 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4480,19 +3408,18 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 236.22 58.4199 90)
+		(property "Value" "PWR_FLAG"
+			(at 232.41 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 232.41 58.42 0)
+			(at 232.41 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4503,7 +3430,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 58.42 0)
+			(at 232.41 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4513,8 +3440,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 232.41 58.42 0)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 232.41 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4525,12 +3452,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "034954be-97cf-4fb9-91f3-591b439f1f51")
+			(uuid "6532d58a-00d8-4a37-97d1-634775383ef7")
 		)
 		(instances
 			(project "ESP32"
 				(path "/41e687bb-bb38-436f-b2ad-ca9f4eebe283"
-					(reference "#PWR02")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -4538,7 +3465,7 @@
 	)
 	(symbol
 		(lib_id "Wright_State_Library:ESP32_30Pin")
-		(at 165.1 95.25 90)
+		(at 164.465 94.615 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4549,7 +3476,7 @@
 		(fields_autoplaced yes)
 		(uuid "1794b8fd-5ccd-4a8b-8028-6a28923541de")
 		(property "Reference" "U1"
-			(at 165.1 64.77 90)
+			(at 165.1 65.405 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4559,7 +3486,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 165.1 95.25 0)
+			(at 164.465 94.615 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4568,8 +3495,8 @@
 				)
 			)
 		)
-		(property "Footprint" "ESP32_30pin"
-			(at 165.1 67.31 90)
+		(property "Footprint" "WrightStateFootprint:ESP32_30pin"
+			(at 165.1 67.945 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4580,7 +3507,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 95.25 0)
+			(at 164.465 94.615 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4591,7 +3518,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 165.1 95.25 0)
+			(at 164.465 94.615 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4734,7 +3661,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 224.79 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -4789,10 +3716,10 @@
 				)
 			)
 		)
-		(pin ""
+		(pin "1"
 			(uuid "0a403f5b-a324-4f03-9803-5ce72bb81257")
 		)
-		(pin ""
+		(pin "2"
 			(uuid "edb752ae-d920-4a99-9b87-a8fcd3c8640c")
 		)
 		(instances
@@ -4836,7 +3763,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RF_Module:ESP32-S3-WROOM-2"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 227.33 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -4907,86 +3834,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 232.41 52.07 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1bd92a0b-c1fd-410c-95ea-7d5785e01f27")
-		(property "Reference" "#PWR01"
-			(at 238.76 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 236.22 52.0699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 232.41 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 232.41 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 232.41 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8e65e3c2-3697-455f-afb9-924be966eca3")
-		)
-		(instances
-			(project "ESP32"
-				(path "/41e687bb-bb38-436f-b2ad-ca9f4eebe283"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "R10K_1%_0603_1")
 		(lib_id "Wright_State_Library:R10K_1%_0603")
 		(at 224.79 118.11 90)
 		(unit 1)
@@ -5020,7 +3867,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 224.79 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -5075,10 +3922,10 @@
 				)
 			)
 		)
-		(pin ""
+		(pin "1"
 			(uuid "dcd8b484-ef7b-4a38-9f6b-960c8ad0eca7")
 		)
-		(pin ""
+		(pin "2"
 			(uuid "55b6ba17-708a-4822-a6a0-ae1f3cdc0a3b")
 		)
 		(instances
@@ -5122,7 +3969,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 129.54 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -5193,7 +4040,6 @@
 		)
 	)
 	(symbol
-		(lib_name "R330_1%_0603_8")
 		(lib_id "Wright_State_Library:R330_1%_0603")
 		(at 220.98 58.42 0)
 		(unit 1)
@@ -5224,7 +4070,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ESP32_30pin"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 220.98 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -5279,10 +4125,10 @@
 				)
 			)
 		)
-		(pin ""
+		(pin "1"
 			(uuid "da34adf0-74cb-4d51-899f-918bda1d587c")
 		)
-		(pin ""
+		(pin "2"
 			(uuid "cc5f7aeb-78b5-4599-89a4-c370c1720b0e")
 		)
 		(instances
@@ -5295,7 +4141,6 @@
 		)
 	)
 	(symbol
-		(lib_name "R330_1%_0603_1")
 		(lib_id "Wright_State_Library:R330_1%_0603")
 		(at 220.98 83.82 0)
 		(unit 1)
@@ -5326,7 +4171,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ESP32_30pin"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 220.98 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -5381,94 +4226,16 @@
 				)
 			)
 		)
-		(pin ""
+		(pin "2"
 			(uuid "50510b42-c5d3-491e-9ddb-80fa774e1fe8")
 		)
-		(pin ""
+		(pin "1"
 			(uuid "c00a21b5-7238-409c-8ae7-eb64ed6588e5")
 		)
 		(instances
 			(project "ESP32"
 				(path "/41e687bb-bb38-436f-b2ad-ca9f4eebe283"
 					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 148.59 77.47 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "42ecf3ed-5eff-4c2c-a82b-556e97b7a639")
-		(property "Reference" "#PWR09"
-			(at 148.59 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 148.59 72.39 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 148.59 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 148.59 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "40eff2ac-ad22-4bd1-84df-cf90033d2117")
-		)
-		(instances
-			(project "ESP32"
-				(path "/41e687bb-bb38-436f-b2ad-ca9f4eebe283"
-					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -5506,7 +4273,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RF_Module:ESP32-S3-WROOM-2"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 227.33 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -5687,7 +4454,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 227.33 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -5789,7 +4556,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "WrightStateFootprint:TL2233"
 			(at 233.68 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -5860,86 +4627,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 148.59 77.47 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "62bf38d0-2872-49c6-8768-1cea9e2c3a86")
-		(property "Reference" "#FLG01"
-			(at 146.685 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 144.78 77.4699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 148.59 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 148.59 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3459bcb9-c2eb-4df3-859c-c7296d1da817")
-		)
-		(instances
-			(project "ESP32"
-				(path "/41e687bb-bb38-436f-b2ad-ca9f4eebe283"
-					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "R330_1%_0603_2")
 		(lib_id "Wright_State_Library:R330_1%_0603")
 		(at 220.98 96.52 0)
 		(unit 1)
@@ -5970,7 +4657,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ESP32_30pin"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 220.98 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -6025,10 +4712,10 @@
 				)
 			)
 		)
-		(pin ""
+		(pin "1"
 			(uuid "9ce92e57-6a58-4977-a43e-cb905e9b8330")
 		)
-		(pin ""
+		(pin "2"
 			(uuid "fd1f17be-d678-4f22-a286-75752686e69f")
 		)
 		(instances
@@ -6041,7 +4728,6 @@
 		)
 	)
 	(symbol
-		(lib_name "R330_1%_0603_3")
 		(lib_id "Wright_State_Library:R330_1%_0603")
 		(at 220.98 90.17 0)
 		(unit 1)
@@ -6072,7 +4758,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ESP32_30pin"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 220.98 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -6127,10 +4813,10 @@
 				)
 			)
 		)
-		(pin ""
+		(pin "1"
 			(uuid "d67f2710-af6c-46ea-9138-a98de5b85e42")
 		)
-		(pin ""
+		(pin "2"
 			(uuid "31ab5fc8-0a5b-492f-9f60-7c34134e30fd")
 		)
 		(instances
@@ -6409,7 +5095,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 143.51 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -6477,7 +5163,6 @@
 		)
 	)
 	(symbol
-		(lib_name "R330_1%_0603_4")
 		(lib_id "Wright_State_Library:R330_1%_0603")
 		(at 220.98 71.12 0)
 		(unit 1)
@@ -6508,7 +5193,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ESP32_30pin"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 220.98 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -6563,16 +5248,95 @@
 				)
 			)
 		)
-		(pin ""
+		(pin "1"
 			(uuid "1489589e-622c-4876-9304-7d771b614d8c")
 		)
-		(pin ""
+		(pin "2"
 			(uuid "5c236162-3fec-438b-8fce-67f5dcc57993")
 		)
 		(instances
 			(project "ESP32"
 				(path "/41e687bb-bb38-436f-b2ad-ca9f4eebe283"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 232.41 52.07 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c60df6a-9553-4316-80ab-d530253e66b8")
+		(property "Reference" "#PWR014"
+			(at 238.76 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 236.22 52.0699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 232.41 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e2a42da9-499a-4e10-a787-dd027af77d52")
+		)
+		(instances
+			(project "ESP32"
+				(path "/41e687bb-bb38-436f-b2ad-ca9f4eebe283"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -6610,7 +5374,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 227.33 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -6791,7 +5555,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 227.33 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -6862,6 +5626,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 232.41 64.77 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87dbbeba-6ce0-4570-8e84-cf59da1adbe2")
+		(property "Reference" "#PWR02"
+			(at 238.76 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 236.22 64.7699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 232.41 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e93b6f4a-e333-4bf2-94a0-af619c2a78f6")
+		)
+		(instances
+			(project "ESP32"
+				(path "/41e687bb-bb38-436f-b2ad-ca9f4eebe283"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Wright_State_Library:TEST_POINT_0603")
 		(at 137.16 87.63 0)
 		(unit 1)
@@ -6894,7 +5737,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 137.16 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -6993,7 +5836,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 121.92 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -7048,10 +5891,10 @@
 				)
 			)
 		)
-		(pin ""
+		(pin "2"
 			(uuid "f97d6032-d49f-4531-ae6b-6e5d92e54b32")
 		)
-		(pin ""
+		(pin "1"
 			(uuid "e1f5c059-90c3-4fc5-a769-91bf652b6680")
 		)
 		(instances
@@ -7064,7 +5907,6 @@
 		)
 	)
 	(symbol
-		(lib_name "R330_1%_0603_5")
 		(lib_id "Wright_State_Library:R330_1%_0603")
 		(at 220.98 77.47 0)
 		(unit 1)
@@ -7095,7 +5937,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ESP32_30pin"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 220.98 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -7150,16 +5992,95 @@
 				)
 			)
 		)
-		(pin ""
+		(pin "1"
 			(uuid "029cb9f8-44af-4838-945c-dc11bf8e68f2")
 		)
-		(pin ""
+		(pin "2"
 			(uuid "c4f1189b-92ca-435e-8d89-180792923ddd")
 		)
 		(instances
 			(project "ESP32"
 				(path "/41e687bb-bb38-436f-b2ad-ca9f4eebe283"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 232.41 58.42 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92a3589d-d7ad-4ae5-840d-da1675681f30")
+		(property "Reference" "#PWR017"
+			(at 238.76 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 236.22 58.4199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 232.41 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "88dc680d-7d64-4532-bc89-2c93a196f578")
+		)
+		(instances
+			(project "ESP32"
+				(path "/41e687bb-bb38-436f-b2ad-ca9f4eebe283"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -7245,7 +6166,6 @@
 		)
 	)
 	(symbol
-		(lib_name "R330_1%_0603_6")
 		(lib_id "Wright_State_Library:R330_1%_0603")
 		(at 220.98 64.77 0)
 		(unit 1)
@@ -7276,7 +6196,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ESP32_30pin"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 220.98 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -7331,10 +6251,10 @@
 				)
 			)
 		)
-		(pin ""
+		(pin "2"
 			(uuid "aa953a96-a97f-4845-b18c-7f44981efc3b")
 		)
-		(pin ""
+		(pin "1"
 			(uuid "a170745b-5061-4bdf-945f-2ee05f690e02")
 		)
 		(instances
@@ -7505,6 +6425,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 147.32 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1147b13-4972-4601-8c57-62305fc91193")
+		(property "Reference" "#PWR01"
+			(at 147.32 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 147.32 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 147.32 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bf8d115b-7685-44f8-9b80-adbf6cdc7226")
+		)
+		(instances
+			(project "ESP32"
+				(path "/41e687bb-bb38-436f-b2ad-ca9f4eebe283"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 238.76 121.92 90)
 		(unit 1)
@@ -7578,85 +6576,6 @@
 			(project "ESP32"
 				(path "/41e687bb-bb38-436f-b2ad-ca9f4eebe283"
 					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 232.41 64.77 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e2b9b948-c742-40e2-b7ce-df413fde23f7")
-		(property "Reference" "#PWR03"
-			(at 238.76 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 236.22 64.7699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 232.41 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 232.41 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 232.41 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cd8173d8-7460-47ac-9c3e-404b2c3554ca")
-		)
-		(instances
-			(project "ESP32"
-				(path "/41e687bb-bb38-436f-b2ad-ca9f4eebe283"
-					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -7819,7 +6738,6 @@
 		)
 	)
 	(symbol
-		(lib_name "R330_1%_0603_7")
 		(lib_id "Wright_State_Library:R330_1%_0603")
 		(at 220.98 52.07 0)
 		(unit 1)
@@ -7850,7 +6768,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ESP32_30pin"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 220.98 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -7905,10 +6823,10 @@
 				)
 			)
 		)
-		(pin ""
+		(pin "1"
 			(uuid "03bdcaa9-30a2-4080-8728-1142ce49c211")
 		)
-		(pin ""
+		(pin "2"
 			(uuid "d6d98538-0760-458c-ba5e-c52fbaadc674")
 		)
 		(instances
@@ -7952,7 +6870,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 227.33 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -8054,7 +6972,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 227.33 96.52 0)
 			(hide yes)
 			(show_name no)

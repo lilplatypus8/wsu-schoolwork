@@ -755,7 +755,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ESP32_30pin"
+		(property "Footprint" "WrightStateFootprint:ESP32_30pin"
 			(at 3.175 -0.635 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1343,7 +1343,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin power_out line
 				(at -13.335 17.145 0)
 				(length 2.54)
 				(name "3.3v"
@@ -2113,7 +2113,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 3.302 1.27 0)
+			(at 4.064 1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2191,38 +2191,38 @@
 			)
 		)
 		(symbol "R10K_1%_0603_1_1"
-			(pin bidirectional line
+			(pin passive line
 				(at -2.54 0 0)
 				(length 1.27)
-				(name "1"
+				(name ""
 					(effects
 						(font
 							(size 0.635 0.635)
 						)
 					)
 				)
-				(number ""
+				(number "1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.635 0.635)
 						)
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 2.54 0 180)
 				(length 1.27)
-				(name "2"
+				(name ""
 					(effects
 						(font
 							(size 0.635 0.635)
 						)
 					)
 				)
-				(number ""
+				(number "2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.635 0.635)
 						)
 					)
 				)
@@ -2325,38 +2325,38 @@
 			)
 		)
 		(symbol "R1K_1%_0603_1_1"
-			(pin bidirectional line
+			(pin passive line
 				(at -2.54 0 0)
 				(length 1.27)
-				(name "1"
+				(name ""
 					(effects
 						(font
 							(size 0.635 0.635)
 						)
 					)
 				)
-				(number ""
+				(number "1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.635 0.635)
 						)
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 2.54 0 180)
 				(length 1.27)
-				(name "2"
+				(name ""
 					(effects
 						(font
 							(size 0.635 0.635)
 						)
 					)
 				)
-				(number ""
+				(number "2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.635 0.635)
 						)
 					)
 				)
@@ -2459,38 +2459,38 @@
 			)
 		)
 		(symbol "R330_1%_0603_1_1"
-			(pin bidirectional line
+			(pin passive line
 				(at -2.54 0 0)
 				(length 1.27)
-				(name "1"
+				(name ""
 					(effects
 						(font
 							(size 0.635 0.635)
 						)
 					)
 				)
-				(number ""
+				(number "1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.635 0.635)
 						)
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 2.54 0 180)
 				(length 1.27)
-				(name "2"
+				(name ""
 					(effects
 						(font
 							(size 0.635 0.635)
 						)
 					)
 				)
-				(number ""
+				(number "2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.635 0.635)
 						)
 					)
 				)
@@ -2728,7 +2728,7 @@
 			)
 		)
 		(symbol "TEST_POINT_0603_1_1"
-			(pin bidirectional line
+			(pin passive line
 				(at -1.27 0 0)
 				(length 1.27)
 				(name ""

@@ -1,0 +1,7 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Josiah/git-repos/wsu-schoolwork/Fall-2026/embedded-systems/homework/HW_3/HW_3.srcs/sources_1/new/ring_oscillator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ring_oscillator
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Josiah/git-repos/wsu-schoolwork/Fall-2026/embedded-systems/homework/HW_3/HW_3.srcs/sources_1/new/ring_oscillator.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ring_oscillator'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Josiah/git-repos/wsu-schoolwork/Fall-2026/embedded-systems/homework/HW_3/HW_3.srcs/sim_1/new/ring_oscillator_delayed.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Josiah/git-repos/wsu-schoolwork/Fall-2026/embedded-systems/homework/HW_3/HW_3.srcs/sim_1/new/ring_oscillator_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ring_oscillator_tb'

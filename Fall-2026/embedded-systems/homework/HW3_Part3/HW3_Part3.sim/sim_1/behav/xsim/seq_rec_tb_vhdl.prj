@@ -1,0 +1,20 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../HW3_Part3.srcs/sources_1/new/full_adder.vhd" \
+"../../../../HW3_Part3.srcs/sources_1/new/priority_encoder.vhd" \
+"../../../../HW3_Part3.srcs/sources_1/new/adder4.vhd" \
+"../../../../HW3_Part3.srcs/sources_1/new/dl.vhd" \
+"../../../../HW3_Part3.srcs/sources_1/new/dff.vhd" \
+"../../../../HW3_Part3.srcs/sources_1/new/dff_rising.vhd" \
+"../../../../HW3_Part3.srcs/sources_1/new/4bit_register.vhd" \
+"../../../../HW3_Part3.srcs/sources_1/new/seq_rec.vhd" \
+"../../../../HW3_Part3.srcs/sim_1/new/adder4_tb.vhd" \
+"../../../../HW3_Part3.srcs/sim_1/new/dff_tb.vhd" \
+"../../../../HW3_Part3.srcs/sim_1/new/dl_tb.vhd" \
+"../../../../HW3_Part3.srcs/sim_1/new/priority_encoder_tb.vhd" \
+"../../../../HW3_Part3.srcs/sim_1/new/dff_rising_tb.vhd" \
+"../../../../HW3_Part3.srcs/sim_1/new/simple_register_tb.vhd" \
+"../../../../HW3_Part3.srcs/sim_1/new/seq_rec_tb.vhd" \
+
+# Do not sort compile order
+nosort

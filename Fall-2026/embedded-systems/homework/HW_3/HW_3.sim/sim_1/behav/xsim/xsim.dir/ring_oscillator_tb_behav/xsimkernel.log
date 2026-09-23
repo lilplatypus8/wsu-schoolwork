@@ -1,0 +1,7 @@
+Running: xsim.dir/ring_oscillator_tb_behav/xsimk.exe -simmode gui -wdb ring_oscillator_tb_behav.wdb -simrunnum 0 -socket 11168
+Design successfully loaded
+Design Loading Memory Usage: 15816 KB (Peak: 15816 KB)
+Design Loading CPU Usage: 46 ms
+Simulation completed
+Simulation Memory Usage: 16724 KB (Peak: 16724 KB)
+Simulation CPU Usage: 171 ms
