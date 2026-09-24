@@ -2452,10 +2452,6 @@
 		(uuid "5fc1b615-4865-4f96-910c-0e1c17a887b7")
 	)
 	(no_connect
-		(at 151.13 80.01)
-		(uuid "65957887-28ac-4b0f-a366-19d06e512955")
-	)
-	(no_connect
 		(at 151.13 87.63)
 		(uuid "7a16510d-d1c0-4c78-a410-8962ea3cebac")
 	)
@@ -2486,10 +2482,6 @@
 	(no_connect
 		(at 179.07 102.87)
 		(uuid "fafd0fe3-df06-4e47-a40c-d8aa49adb35b")
-	)
-	(no_connect
-		(at 179.07 80.01)
-		(uuid "fc534103-b8e5-4d81-aaee-ba895b83fb95")
 	)
 	(wire
 		(pts
@@ -2603,6 +2595,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 80.01) (xy 180.34 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31108af3-9239-4a43-bed5-c6d1cfb7c75c")
+	)
+	(wire
+		(pts
 			(xy 236.22 121.92) (xy 238.76 121.92)
 		)
 		(stroke
@@ -2640,6 +2642,16 @@
 			(type default)
 		)
 		(uuid "4b400488-e1ce-409c-a810-7bf774971b43")
+	)
+	(wire
+		(pts
+			(xy 180.34 80.01) (xy 180.34 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4eb6ac5c-f3fb-4917-b9be-ea22d7be6fc1")
 	)
 	(wire
 		(pts
@@ -2930,6 +2942,16 @@
 			(type default)
 		)
 		(uuid "d0dc85d2-2120-4e0c-89ae-7c34f55dc10f")
+	)
+	(wire
+		(pts
+			(xy 148.59 80.01) (xy 151.13 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4ab61f9-eca3-4d39-a1ae-30e201870f04")
 	)
 	(wire
 		(pts
@@ -5805,6 +5827,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 148.59 80.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8b5fbca4-54bd-423f-9eed-a6f054b5f783")
+		(property "Reference" "#PWR09"
+			(at 148.59 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 147.574 83.566 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 148.59 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ec15baa4-efb0-401b-ad75-2427db0a7629")
+		)
+		(instances
+			(project "ESP32"
+				(path "/41e687bb-bb38-436f-b2ad-ca9f4eebe283"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Wright_State_Library:R1K_1%_0603")
 		(at 121.92 91.44 0)
 		(unit 1)
@@ -6160,6 +6259,84 @@
 			(project "ESP32"
 				(path "/41e687bb-bb38-436f-b2ad-ca9f4eebe283"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 180.34 78.74 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b1651dc7-6697-4715-94e1-2a08b42a04d9")
+		(property "Reference" "#PWR03"
+			(at 186.69 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 183.134 78.74 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 180.34 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ce63956d-c075-4a28-8510-3169a8628eb4")
+		)
+		(instances
+			(project "ESP32"
+				(path "/41e687bb-bb38-436f-b2ad-ca9f4eebe283"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
