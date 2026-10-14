@@ -1,0 +1,7 @@
+"-specs=C:/Users/Josiah/git-repos/wsu-schoolwork/Fall-2026/embedded-systems/labs/Lab6/Lab6/build/specs/picolibc.specs"
+-Wno-frame-address
+-mlongcalls
+-fno-builtin-memcpy
+-fno-builtin-memset
+-fno-builtin-bzero
+-fno-rtti

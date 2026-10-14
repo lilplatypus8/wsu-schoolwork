@@ -1,0 +1,4 @@
+Command: cmake -G Ninja -B C:\Users\Josiah\git-repos\wsu-schoolwork\Fall-2026\embedded-systems\labs\Lab6\Lab6\build -DPYTHON_DEPS_CHECKED=1 -DPYTHON=C:\Users\Josiah\.espressif\python_env\idf6.1_py3.11_env\Scripts\python.exe -DESP_PLATFORM=1 -DIDF_TARGET=esp32 -DCCACHE_ENABLE=False C:\Users\Josiah\git-repos\wsu-schoolwork\Fall-2026\embedded-systems\labs\Lab6\Lab6
+NOTE: Kconfig parser version: 1
+NOTE: Kconfig defaults policy: use sdkconfig
+NOTE: Status: Finished successfully
