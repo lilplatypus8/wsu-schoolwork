@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+			<title>Lab 3</title>
+			<script type="text/javascript" src="../Common/webgl-utils.js"></script>
+			<script type="text/javascript" src="../Common/initShaders.js"></script>
+			<script type="text/javascript" src="../Common/MV.js"></script>
+			<script type="text/javascript" src="lab3.js"></script>
+			
+			<script type="x-shader/x-vertex" id="vertex-shader">
+				attribute vec4 myPosition;
+				uniform mat4 uScale;
+				uniform mat4 uRotateX;
+				uniform mat4 uRotateY;
+				uniform mat4 uRotateZ;
+				uniform mat4 uTranslation;
+				uniform mat4 uProjection;
+				
+				void main() {
+					// Column vectors: operations act from right to left.
+					gl_Position = uProjection * uTranslation * uRotateZ * uRotateY * uRotateX * uScale * myPosition;
+				}
+			</script>
+			
+			<script type="x-shader/x-fragment" id="fragment-shader">
+				precision mediump float;
+				uniform vec4 uFaceColor;
+				
+				void main() { 
+					gl_FragColor = uFaceColor;
+				}
+			</script>
+			
+	</head>
+	<body>
+	  <h1>Octahedron / 3D Transformations</h1>
+	  <canvas id="gl-canvas" width="720" height="720" aria-label="Interactive colored octahedron"></canvas>
+	  <p><kbd>X</kbd> <kbd>Y</kbd> <kbd>Z</kbd>: rotate around the corresponding axis by 5°.<br>
+	     Arrow keys: translate along X or Y by 0.1 units.<br>
+	     <kbd>S</kbd>: scale X ×1.05. <kbd>D</kbd>: scale Y ×1.05.<br>
+	     Hold <kbd>Shift</kbd> to reverse rotation or shrink instead of enlarge.</p>
+	  <button id="reset" type="button">Reset (R)</button>
+	  <p id="status" role="status"></p>
+	</body>
+</html>
